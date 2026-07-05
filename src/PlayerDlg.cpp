@@ -15,31 +15,47 @@ extern std::string  g_settingsPath;
 static constexpr INT ITEM_H = 18;
 static constexpr INT SB_W   = 15;
 static constexpr INT LIST_Y = 36;
-static constexpr INT LIST_H = PlayerDlg::N_VISIBLE * ITEM_H;  // 19×18=342
+static constexpr INT LIST_H = PlayerDlg::N_VISIBLE * ITEM_H;  // 12×18=216
 
 // Panel prawy: scrollbar przylega do prawego paddingu (DLG_W-21=455)
 static constexpr INT RL_SB_X   = PlayerDlg::DLG_W - 21 - SB_W;           // 440
 static constexpr INT RL_ITEM_W = RL_SB_X - PlayerDlg::PR_X - 2;           // 175
 
-// Przyciski Stop/Graj/Reset i [<<][>>] na tym samym y — 64×30 = rozmiar iOkay.def / BOX_64_30_PCX
+// Przyciski Play/Reset i [<<][>>], oba rzędy w lewym panelu — 64×30 = rozmiar iOkay.def / BOX_64_30_PCX
 static constexpr INT BTN_W    = 64;
 static constexpr INT BTN_H    = 30;
 static constexpr INT BTN_GAP  = 9;
 static constexpr INT BTN2_TOT = 2 * BTN_W + 1 * BTN_GAP;                  // 137
 static constexpr INT BTN_X0   = PlayerDlg::PC_X + (PlayerDlg::PC_W - BTN2_TOT) / 2;
-static constexpr INT BTN_Y    = 390;
+static constexpr INT BTN_ROW_GAP = 8;
 
-// [<<][>>] w panelu prawym
-static constexpr INT QB_H   = 30;
-static constexpr INT QB_SW  = 64;
-static constexpr INT QB_GAP = 10;
-static constexpr INT QB_TOT = 2 * QB_SW + QB_GAP;                          // 138
-static constexpr INT QB_X0  = PlayerDlg::PR_X + (PlayerDlg::PR_W - QB_TOT) / 2;
-
-// Stopka
-static constexpr INT FOOTER_SEP_Y = BTN_Y + BTN_H + 8;                    // 426
+// Stopka - liczona pierwsza, przyciski podwieszone od niej w górę (bez martwej przestrzeni)
 static constexpr INT FOOTER_BTN_X = (PlayerDlg::DLG_W - 64) / 2;          // 206
-static constexpr INT FOOTER_BTN_Y = PlayerDlg::DLG_H - 24 - 30;           // 434
+static constexpr INT FOOTER_BTN_Y = PlayerDlg::DLG_H - 24 - 30;           // 264
+static constexpr INT FOOTER_SEP_Y = FOOTER_BTN_Y - 6;                     // 258
+
+static constexpr INT BTN_Y    = FOOTER_SEP_Y - 8 - BTN_H;                 // 220 - rząd [<<][>>] (bliżej stopki)
+static constexpr INT BTN_Y2   = BTN_Y - BTN_H - BTN_ROW_GAP;              // 182 - rząd Play/Reset (wyżej)
+
+// ============================================================================
+//  Separatory - DarkenArea/LightenArea zamiast CreateLineSeparator (stripe3d.bmp).
+//  Te same prymitywy co natywne H3LoadedPcx16::SinkArea/BevelArea: modyfikują
+//  istniejące piksele tła (cień+highlight) zamiast nadpisywać je płaskim kolorem.
+// ============================================================================
+
+static void DrawGrooveH(H3LoadedPcx16* bg, INT x, INT y, INT w)
+{
+    if (!bg) return;
+    bg->DarkenArea(x, y,     w, 1, 50);
+    bg->LightenArea(x, y + 1, w, 1, 50);
+}
+
+static void DrawGrooveV(H3LoadedPcx16* bg, INT x, INT y, INT h)
+{
+    if (!bg) return;
+    bg->DarkenArea(x,     y, 1, h, 50);
+    bg->LightenArea(x + 1, y, 1, h, 50);
+}
 
 // ============================================================================
 //  Konstruktor
@@ -61,23 +77,23 @@ BOOL PlayerDlg::OnCreate()
     //  PANEL KONTROLEK (lewy, PC_X=21, PC_W=240)
     // ========================================================================
 
-    // Tytuł
-    CreateText(PC_X, 10, PC_W, 16,
-        "Odtwarzacz Audio",
-        NH3Dlg::Text::BIG, NH3Dlg::NTextColor::GOLD, ID_TITLE,
-        NH3Dlg::NTextAlignment::MIDDLE_CENTER);
+    H3LoadedPcx16* bg = GetBackgroundPcx();
 
-    CreateLineSeparator(PC_X, 28, PC_W);
+    // Gorny border jednym wywolaniem na pelnej szerokosci (bez przerwy przy pionowej linii)
+    DrawGrooveH(bg, PC_X - 7, 28, (PR_X + PR_W + 7) - (PC_X - 7));
 
-    // Głośność – etykieta + suwak
-    CreateText(PC_X, 36, PC_W, 16,
+    // Pionowa linia między lewym a prawym panelem (wypełnia 2px odstęp: PC_X+PC_W=261 do PR_X=263)
+    DrawGrooveV(bg, PC_X + PC_W, 30, 229);
+
+    // Głośność – etykieta + suwak (odsunięte 7px od lewej krawędzi)
+    CreateText(PC_X + 7, 36, PC_W - 7, 16,
         "Vol: 50%",
         NH3Dlg::Text::SMALL, NH3Dlg::NTextColor::WHITE, ID_TEXT_VOLUME,
         NH3Dlg::NTextAlignment::MIDDLE_LEFT);
 
     {
         H3DlgScrollbar* sb = CreateScrollbar(
-            PC_X, 54, PC_W, 16,
+            PC_X + 16, 54, PC_W - 16, 16,
             ID_SCROLLBAR_VOL,
             /*ticksCount=*/100,
             VolumeScrollProc,
@@ -92,14 +108,14 @@ BOOL PlayerDlg::OnCreate()
         }
     }
 
-    // Czas audio – etykieta + suwak (seek)
-    CreateText(PC_X, 78, PC_W, 16,
+    // Czas audio – etykieta + suwak (seek) (odsunięte 7px od lewej krawędzi)
+    CreateText(PC_X + 7, 78, PC_W - 7, 16,
         "Czas: 0:00 / 0:00",
         NH3Dlg::Text::SMALL, NH3Dlg::NTextColor::WHITE, ID_TEXT_TIME,
         NH3Dlg::NTextAlignment::MIDDLE_LEFT);
 
     CreateScrollbar(
-        PC_X, 96, PC_W, 16,
+        PC_X + 16, 96, PC_W - 16, 16,
         ID_SEEK_SLIDER,
         /*ticksCount=*/1000,
         SeekSliderProc,
@@ -118,33 +134,36 @@ BOOL PlayerDlg::OnCreate()
             ID_TEXT_AUTOPLAY, NH3Dlg::NTextAlignment::MIDDLE_LEFT);
     }
 
-    // Separator przed przyciskami
-    CreateLineSeparator(PC_X, BTN_Y - 8, PC_W);
+    // Separator przed przyciskami (wspólny dla obu rzędów: Play/Reset i [<<][>>])
+    DrawGrooveH(bg, PC_X - 7, BTN_Y2 - 8, PC_W + 7);
 
-    // Przyciski Play/Paus (toggle) + Reset – z BOX_64_30_PCX
+    // Rząd 1: Play/Paus (toggle) + Reset – z BOX_64_30_PCX
+    {
+        INT bx = BTN_X0;
+        AddItem(H3DlgPcx::Create(bx - 1, BTN_Y2 - 1, NH3Dlg::Assets::BOX_64_30_PCX));
+        AddItem(H3DlgDefButton::Create(bx, BTN_Y2, BTN_W, BTN_H, ID_BTN_PLAY,  "PLAY_B.def",  0, 1, FALSE, 0));
+        bx += BTN_W + BTN_GAP;
+        AddItem(H3DlgPcx::Create(bx - 1, BTN_Y2 - 1, NH3Dlg::Assets::BOX_64_30_PCX));
+        AddItem(H3DlgDefButton::Create(bx, BTN_Y2, BTN_W, BTN_H, ID_BTN_RESET, "RESET_B.def", 0, 1, FALSE, 0));
+    }
+
+    // Rząd 2: [<<][>>] (Previous/Next) – ten sam x co rząd wyżej, niższy o BTN_H+BTN_ROW_GAP
     {
         INT bx = BTN_X0;
         AddItem(H3DlgPcx::Create(bx - 1, BTN_Y - 1, NH3Dlg::Assets::BOX_64_30_PCX));
-        AddItem(H3DlgDefButton::Create(bx, BTN_Y, BTN_W, BTN_H, ID_BTN_PLAY,  "PLAY_B.def",  0, 1, FALSE, 0));
+        AddItem(H3DlgDefButton::Create(bx, BTN_Y, BTN_W, BTN_H, ID_BTN_Q_PREV, "PREV_B.def", 0, 1, FALSE, 0));
         bx += BTN_W + BTN_GAP;
         AddItem(H3DlgPcx::Create(bx - 1, BTN_Y - 1, NH3Dlg::Assets::BOX_64_30_PCX));
-        AddItem(H3DlgDefButton::Create(bx, BTN_Y, BTN_W, BTN_H, ID_BTN_RESET, "RESET_B.def", 0, 1, FALSE, 0));
+        AddItem(H3DlgDefButton::Create(bx, BTN_Y, BTN_W, BTN_H, ID_BTN_Q_NEXT, "NEXT_B.def", 0, 1, FALSE, 0));
     }
 
     // ========================================================================
     //  PANEL PLAYLISTA (prawy, PR_X=263, PR_W=192, scrollbar do x=455)
     // ========================================================================
 
-    CreateText(PR_X, 10, PR_W, 16,
-        "Playlista (0)",
-        NH3Dlg::Text::SMALL, NH3Dlg::NTextColor::GOLD, ID_TEXT_RIGHT_COUNT,
-        NH3Dlg::NTextAlignment::MIDDLE_LEFT);
-
-    CreateLineSeparator(PR_X, 28, PR_W);
-
     for (INT i = 0; i < N_VISIBLE; i++)
     {
-        CreateText(PR_X, LIST_Y + i * ITEM_H, RL_ITEM_W, ITEM_H,
+        CreateText(PR_X + 7, LIST_Y + i * ITEM_H, RL_ITEM_W - 7, ITEM_H,
             "",
             NH3Dlg::Text::SMALL, NH3Dlg::NTextColor::WHITE,
             ID_RIGHT_ITEM_BASE + i,
@@ -152,7 +171,7 @@ BOOL PlayerDlg::OnCreate()
     }
 
     CreateScrollbar(
-        RL_SB_X, LIST_Y, SB_W, LIST_H,
+        RL_SB_X, LIST_Y, SB_W + 1, LIST_H,  // +1: kompensuje 1px niedoboru toru z prawej strony
         ID_SCROLL_RIGHT,
         /*ticksCount=*/250,
         ScrollRightProc,
@@ -161,21 +180,11 @@ BOOL PlayerDlg::OnCreate()
         /*arrowsEnabled=*/TRUE
     );
 
-    CreateLineSeparator(PR_X, LIST_Y + LIST_H + 2, PR_W);  // y=380
-
-    // Separator i [<<][>>] – na tym samym BTN_Y co Stop/Graj/Reset
-    CreateLineSeparator(PR_X, BTN_Y - 8, PR_W);
-
-    AddItem(H3DlgPcx::Create(QB_X0 - 1, BTN_Y - 1, NH3Dlg::Assets::BOX_64_30_PCX));
-    AddItem(H3DlgDefButton::Create(QB_X0,              BTN_Y, QB_SW, QB_H, ID_BTN_Q_PREV, "PREV_B.def", 0, 1, FALSE, 0));
-    AddItem(H3DlgPcx::Create(QB_X0 + QB_SW + QB_GAP - 1, BTN_Y - 1, NH3Dlg::Assets::BOX_64_30_PCX));
-    AddItem(H3DlgDefButton::Create(QB_X0 + QB_SW + QB_GAP, BTN_Y, QB_SW, QB_H, ID_BTN_Q_NEXT, "NEXT_B.def", 0, 1, FALSE, 0));
-
     // ========================================================================
     //  STOPKA (pełna szerokość, padding dół 24px)
     // ========================================================================
 
-    CreateLineSeparator(5, FOOTER_SEP_Y, DLG_W - 10);
+    DrawGrooveH(bg, 5 + 9, FOOTER_SEP_Y, DLG_W - 10 - 18);
     CreateOKButton(FOOTER_BTN_X, FOOTER_BTN_Y);
 
     UpdateRightList();
@@ -296,13 +305,6 @@ void PlayerDlg::UpdateRightList()
 {
     const std::vector<std::string>& ids = g_player.GetSettings().GetCurrentUnlocked();
     int total                           = (int)ids.size();
-
-    if (H3DlgText* t = GetText(ID_TEXT_RIGHT_COUNT))
-    {
-        char buf[32];
-        snprintf(buf, sizeof(buf), "Playlista (%d)", total);
-        t->SetText(buf);
-    }
 
     int maxScroll = (total > N_VISIBLE) ? (total - N_VISIBLE) : 0;
     if (m_rightScroll > maxScroll) m_rightScroll = maxScroll;

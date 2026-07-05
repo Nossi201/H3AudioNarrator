@@ -8,8 +8,8 @@ class PlayerDlg : public h3::H3Dlg
 {
 public:
     static constexpr INT DLG_W     = 476;
-    static constexpr INT DLG_H     = 488;
-    static constexpr INT N_VISIBLE = 19;
+    static constexpr INT DLG_H     = 318;
+    static constexpr INT N_VISIBLE = 12;
 
     // Panel kontrolek (lewy)
     static constexpr INT PC_X  = 21;
@@ -32,7 +32,6 @@ public:
         ID_TEXT_AUTOPLAY    = 212,
 
         // IDs – panel playlista
-        ID_TEXT_RIGHT_COUNT = 130,
         ID_SCROLL_RIGHT     = 131,
         ID_BTN_Q_PREV       = 401,
         ID_BTN_Q_NEXT       = 403,
