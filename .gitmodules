@@ -1,3 +1,6 @@
 [submodule "external/H3API"]
 	path = external/H3API
 	url = https://github.com/RoseKavalier/H3API.git
+[submodule "tools/chronicles_voiceover"]
+	path = tools/chronicles_voiceover
+	url = https://github.com/Nossi201/H3-VoiceOver-Pack.git

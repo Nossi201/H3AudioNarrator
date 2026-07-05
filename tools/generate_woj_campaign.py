@@ -25,8 +25,8 @@ VOICES = {
     'npc_f': 'N0GCuK2B0qwWozQNTS8F',
 }
 
-INPUT_FILE = r"audio_prepared\Woj_bmp_campaign_texts_ab_edit.txt"
-OUTPUT_DIR = r"audio_woj_campaign"
+INPUT_FILE = r"chronicles_voiceover\audio_prepared\Woj_bmp_campaign_texts_ab_edit.txt"
+OUTPUT_DIR = r"chronicles_voiceover\audio_woj_campaign"
 
 
 def parse_edit_file(filepath):

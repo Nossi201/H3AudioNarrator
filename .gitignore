@@ -26,8 +26,9 @@ __pycache__/
 # Local Claude Code automation (personal, machine-specific)
 .claude/
 
-# Wyekstrahowane teksty kampanii HoMM3 i wygenerowane z nich audio
-# (materiał gry, nie chcemy tego publikować w repo)
+# Stare kopie danych kampanii sprzed przejscia na submodul tools/chronicles_voiceover/
+# (ten sam material zyje teraz w repo H3-VoiceOver-Pack) - te foldery mozna bezpiecznie
+# usunac recznie z dysku, git i tak by ich nie zsledzil.
 tools/campaign_extracted/
 tools/campaign_final/
 tools/audio_woj_campaign/

@@ -173,7 +173,7 @@ def combine_audio_with_ffmpeg(segment_files: list, output_path: str, pause_ms: i
         return False
 
 
-def generate_mixed_audio(text_id: int, voices: list, text: str, output_dir: str = "audio_final"):
+def generate_mixed_audio(text_id: int, voices: list, text: str, output_dir: str = "chronicles_voiceover/audio_final"):
     """
     Główna funkcja generująca audio dla tekstu mieszanego.
     """
@@ -248,4 +248,4 @@ if __name__ == '__main__':
 
     voices_46 = ["T", "npc_m", "T", "npc_m", "T"]
 
-    generate_mixed_audio(46, voices_46, text_46, "audio_final")
+    generate_mixed_audio(46, voices_46, text_46, "chronicles_voiceover/audio_final")

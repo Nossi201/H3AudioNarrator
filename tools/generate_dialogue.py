@@ -80,7 +80,7 @@ def clean_text(text: str) -> str:
     return text.strip()
 
 
-def generate_dialogue(text_id: int, voices: list, text: str, output_dir: str = "audio_final", seed: int = None):
+def generate_dialogue(text_id: int, voices: list, text: str, output_dir: str = "chronicles_voiceover/audio_final", seed: int = None):
     """
     Generuje audio dla tekstu z dialogami używając text_to_dialogue API.
 
@@ -176,4 +176,4 @@ if __name__ == '__main__':
     # Test z seed dla powtarzalności
     SEED = 12345
 
-    generate_dialogue(99, voices_test, text_test, "audio_final", seed=SEED)
+    generate_dialogue(99, voices_test, text_test, "chronicles_voiceover/audio_final", seed=SEED)

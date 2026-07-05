@@ -32,12 +32,15 @@ from pathlib import Path
 # ─────────────────────────────────────────────────────────────
 # KONFIGURACJA
 # ─────────────────────────────────────────────────────────────
+TOOLS_DIR      = Path(__file__).resolve().parent
+CHRONICLES_DIR = TOOLS_DIR / "chronicles_voiceover"
+
 LOD_PATH       = r"F:\gry\h3-Chro-Hdmod(modowanie)\HoMM 3 Complete\Data\Woj_bmp.lod"
 H3C_NAME       = "ab.h3c"
-TEXT_MAP_IN    = r"F:\gry\h3-Chro-Hdmod(modowanie)\plugin\H3ButtonPlugin\tools\audio_woj_campaign\text_map.txt"
-CAMPAIGN_JSON  = r"F:\gry\h3-Chro-Hdmod(modowanie)\plugin\H3ButtonPlugin\tools\campaign_extracted\Woj_bmp_campaign_texts.json"
-OUTPUT_FILE    = r"F:\gry\h3-Chro-Hdmod(modowanie)\plugin\H3ButtonPlugin\tools\audio_woj_campaign\text_map_with_filter.txt"
-DEBUG_FILE     = r"F:\gry\h3-Chro-Hdmod(modowanie)\plugin\H3ButtonPlugin\tools\audio_woj_campaign\text_map_filter_debug.txt"
+TEXT_MAP_IN    = str(CHRONICLES_DIR / "audio_woj_campaign" / "text_map.txt")
+CAMPAIGN_JSON  = str(CHRONICLES_DIR / "campaign_extracted" / "Woj_bmp_campaign_texts.json")
+OUTPUT_FILE    = str(CHRONICLES_DIR / "audio_woj_campaign" / "text_map_with_filter.txt")
+DEBUG_FILE     = str(CHRONICLES_DIR / "audio_woj_campaign" / "text_map_filter_debug.txt")
 
 # ─────────────────────────────────────────────────────────────
 # H3M BOUNDARIES – wykryte empirycznie przez skanowanie H3M
