@@ -49,6 +49,9 @@ Plugin w runtime korzysta też z **`H3.LodTable.dll`** (buduje się z pluginu `H
 to zależność uruchomieniowa dostarczana przez HD Mod, nie jest częścią tego repo; musi już być obecna
 w folderze `_HD3_Data\Packs\` gry.
 
+Samo skopiowanie plików do `_HD3_Data\Packs\TextDetector\` nie wystarczy — trzeba jeszcze zarejestrować
+paczkę w **HD Launcherze**: Ustawienia główne → Dodatkowe paczki danych → Dodaj → wybierz folder `TextDetector`.
+
 ## tools/ — generowanie audio (Python)
 
 Skrypty w `tools/` wyciągają teksty kampanii z plików gry i generują do nich narrację przez ElevenLabs API.
