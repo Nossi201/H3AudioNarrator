@@ -1,0 +1,35 @@
+# Build output (CMake / MSBuild / CLion)
+build/
+cmake-build-*/
+out/
+
+# Compiler/linker artifacts
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+# .dll wyklucza tez H3.LodTable.dll - to zewnetrzny plik z HD Mod
+# (zaleznosc runtime, nie budowany przez ten projekt), zamierzenie poza repo.
+*.dll
+*.exe
+
+# IDE
+.idea/
+.vs/
+
+# Python (tools/)
+__pycache__/
+*.pyc
+
+# Local Claude Code automation (personal, machine-specific)
+.claude/
+
+# Wyekstrahowane teksty kampanii HoMM3 i wygenerowane z nich audio
+# (materiał gry, nie chcemy tego publikować w repo)
+tools/campaign_extracted/
+tools/campaign_final/
+tools/audio_woj_campaign/
+tools/audio_final/
+tools/audio_prepared/
