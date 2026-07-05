@@ -4,6 +4,12 @@ Plugin (DLL) do Heroes of Might and Magic III (HD Mod / H3API), dodający pasek 
 do sterowania odtwarzaniem audio (Play/Pauza/Next/Previous/Menu) oraz automatyczne odtwarzanie narracji
 ElevenLabs wykrywanej po treści okien dialogowych kampanii.
 
+## Podgląd
+
+![Okno odtwarzacza (F6)](docs/screenshot-player-dlg.png)
+
+Przykładowy wygenerowany fragment narracji (kampania "Wojownicy Pustkowi"): [docs/sample-audio/woj_032.mp3](docs/sample-audio/woj_032.mp3)
+
 ## Wymagania
 
 - Visual Studio z obsługą C++ i CMake (testowane z instalacją w `C:\Program Files\Microsoft Visual Studio\18\Community`)
