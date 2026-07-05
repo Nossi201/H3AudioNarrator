@@ -18,6 +18,9 @@ ElevenLabs wykrywanej po treści okien dialogowych kampanii.
   ```
   (albo `git clone --recurse-submodules` od razu).
 - **`external/miniaudio`** — wendorowany single-header (`miniaudio.h`), zwykłe pliki repo, nic do inicjalizacji.
+- **`tools/chronicles_voiceover`** — git submodule ([Nossi201/H3-VoiceOver-Pack](https://github.com/Nossi201/H3-VoiceOver-Pack)),
+  wyekstrahowane teksty i wygenerowane audio narracji kampanii Heroes Chronicles. Opcjonalny — plugin buduje się
+  i działa bez tego (to tylko dane runtime dla auto-play narracji). Inicjalizacja: `git submodule update --init tools/chronicles_voiceover`.
 - **`../H3Plugins`** — **NIE jest submodułem tego repo**, musi być sklonowany osobno jako katalog siostrzany
   (`plugin/H3Plugins` obok `plugin/H3ButtonPlugin`):
   ```

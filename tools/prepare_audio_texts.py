@@ -306,14 +306,14 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Przykłady:
-  python prepare_audio_texts.py campaign_extracted/Woj_bmp_campaign_texts.json --source ab.h3c
-  python prepare_audio_texts.py campaign_extracted/Woj_bmp_campaign_texts.json -o audio_prepared
+  python prepare_audio_texts.py chronicles_voiceover/campaign_extracted/Woj_bmp_campaign_texts.json --source ab.h3c
+  python prepare_audio_texts.py chronicles_voiceover/campaign_extracted/Woj_bmp_campaign_texts.json -o chronicles_voiceover/audio_prepared
         """
     )
 
     parser.add_argument('input', help='Plik JSON z tekstami kampanii')
     parser.add_argument('--source', '-s', help='Filtruj po źródle (np. ab.h3c)')
-    parser.add_argument('--output', '-o', default='audio_prepared', help='Katalog wyjściowy')
+    parser.add_argument('--output', '-o', default='chronicles_voiceover/audio_prepared', help='Katalog wyjściowy')
     parser.add_argument('--preview', action='store_true', help='Tylko podgląd, bez zapisywania')
 
     args = parser.parse_args()

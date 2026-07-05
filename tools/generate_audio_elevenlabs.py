@@ -10,7 +10,7 @@ Użycie:
     python generate_audio_elevenlabs.py <plik.json> --api-key YOUR_API_KEY [--voice VOICE_ID]
 
 Przykład:
-    python generate_audio_elevenlabs.py campaign_extracted/Woj_bmp_campaign_texts.json --api-key sk-... --voice pMsXgVXv3BLzUgSXRplE
+    python generate_audio_elevenlabs.py chronicles_voiceover/campaign_extracted/Woj_bmp_campaign_texts.json --api-key sk-... --voice pMsXgVXv3BLzUgSXRplE
 """
 
 import os

@@ -1,6 +1,6 @@
 # Deploy H3ButtonPlugin do WSZYSTKICH folderow HoMM z _HD3_Data\Packs
 $pluginRoot = 'F:\gry\h3-Chro-Hdmod(modowanie)\plugin\H3ButtonPlugin'
-$srcTextMap = "$pluginRoot\tools\audio_woj_campaign\text_map_with_filter.txt"
+$srcTextMap = "$pluginRoot\tools\chronicles_voiceover\audio_woj_campaign\text_map_with_filter.txt"
 
 # Zbierz wszystkie istniejace DLL i wybierz NAJNOWSZY (po LastWriteTime)
 $dllCandidates = @(
@@ -28,7 +28,7 @@ if (!$srcDll) {
     Write-Host "Zbuduj projekt najpierw (cmake --build)."
     exit 1
 }
-$srcAudio   = "$pluginRoot\tools\audio_woj_campaign"
+$srcAudio   = "$pluginRoot\tools\chronicles_voiceover\audio_woj_campaign"
 
 # Szukaj wszystkich folderow HoMM w katalogu nadrzednym
 $parentDir = 'F:\gry\h3-Chro-Hdmod(modowanie)'
