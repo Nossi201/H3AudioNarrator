@@ -348,6 +348,27 @@ VOID __stdcall HH_H3Redraw(HiHook* h, H3WindowManager* wm, INT32 x, INT32 y, INT
 {
     THISCALL_5(VOID, h->GetDefaultFunc(), wm, x, y, dx, dy);
 
+    if (g_toolbar.ready)
+    {
+        __try
+        {
+            if (!IsAdventureMapForeground())
+            {
+                // Opuscilismy mape przygody (np. powrot do menu glownego) -
+                // HH_DlgProc juz sie nie odpali zeby to wykryc, bo jest
+                // hookiem na DialogProc samej mapy przygody. Gaszymy tu,
+                // w hooku ktory odpala sie na kazdym ekranie.
+                g_toolbar.ready = false;
+                g_toolbar.boundAdventureDlg = nullptr;
+            }
+        }
+        __except (EXCEPTION_EXECUTE_HANDLER)
+        {
+            g_toolbar.ready = false;
+            g_toolbar.boundAdventureDlg = nullptr;
+        }
+    }
+
     if (g_toolbar.ready && g_toolbar.absX >= 0 &&
         RectIntersects(x, y, dx, dy, g_toolbar.absX, g_toolbar.absY, g_toolbar.w, g_toolbar.h))
     {
