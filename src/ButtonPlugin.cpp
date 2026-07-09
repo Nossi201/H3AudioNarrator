@@ -59,6 +59,14 @@ std::string GetDllDir()
 // g_audioBasePath/g_textMapPath/g_settingsPath sa juz skonstruowane.
 ButtonPlugin buttonPlugin;
 
+// Wolna funkcja (deklarowana w Player.hpp) zamiast wywolywania buttonPlugin.LogFormat
+// bezposrednio z naglowka Player.hpp - patrz komentarz przy deklaracji w Player.hpp.
+void LogAudioStart(const char* fn, const char* audioId, bool autoStart)
+{
+    buttonPlugin.LogFormat("[AudioStart] fn=%s id=%s auto_start=%d",
+        fn, audioId, (int)autoStart);
+}
+
 //===================================================================================
 //                         SYSTEM LOGOWANIA
 //===================================================================================

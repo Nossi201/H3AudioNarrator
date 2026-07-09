@@ -6,6 +6,12 @@
 #include <deque>
 #include <string>
 
+// Zaimplementowane w ButtonPlugin.cpp (ktore ma juz pelna definicje ButtonPlugin) -
+// unika wciagania ButtonPlugin.hpp/Plugin.hpp do tego naglowka, co powodowaloby
+// podwojne wlaczenie patcher_x86.hpp (stara i nowa sciezka H3API) w plikach ktore
+// juz wlaczaja go bezposrednio (np. ToolbarRenderer.cpp).
+void LogAudioStart(const char* fn, const char* audioId, bool autoStart);
+
 class Player
 {
 public:
@@ -71,10 +77,16 @@ public:
     }
 
     // Kolejkuje audio: jezeli cos gra – dodaje na koniec kolejki; inaczej odpala od razu.
+    // Kolejkowanie (czyli obietnica, ze to zagra PO biezacym utworze) respektuje
+    // auto_start - gdy Autoplay wylaczony, nowe audio NIE wchodzi do kolejki
+    // (zostaje tylko odblokowane/widoczne na liscie, patrz MatchAndMaybePlay).
     bool EnqueuePath(const std::string& audioId, const char* path)
     {
         if (m_audioPlayer.GetState() == AudioPlayer::State::Playing)
         {
+            if (!m_settings.auto_start)
+                return false;
+
             QueueItem item;
             item.id   = audioId;
             item.path = path ? path : "";
@@ -93,6 +105,8 @@ public:
 
         if (!m_audioPlayer.Play())
             return false;
+
+        LogAudioStart("PlayPath", audioId.c_str(), m_settings.auto_start);
 
         m_currentAudioId = audioId;
         current_time = 0;
@@ -173,13 +187,15 @@ public:
     }
 
     // -----------------------------------------------------------------------
+    // Przy Autoplay ON odtwarzaja od razu (stare zachowanie); przy OFF tylko
+    // przesuwaja zaznaczenie (selected_audio) bez odtwarzania - patrz SelectOrPlay.
     bool PlayNext()
     {
         const std::vector<std::string>& ids = m_settings.GetCurrentUnlocked();
         if (ids.empty()) return false;
         int idx  = FindCurrentIndexInUnlocked();
         int next = (idx + 1) % (int)ids.size();   // idx=-1 → next=0 (pierwszy)
-        return Play(ids[next]);
+        return SelectOrPlay(ids[next]);
     }
 
     bool PlayPrevious()
@@ -188,7 +204,7 @@ public:
         if (ids.empty()) return false;
         int idx  = FindCurrentIndexInUnlocked();
         int prev = (idx <= 0) ? (int)ids.size() - 1 : idx - 1;  // idx=-1 lub 0 → last
-        return Play(ids[prev]);
+        return SelectOrPlay(ids[prev]);
     }
 
     // Seek do absolutnej pozycji w ms
@@ -241,14 +257,14 @@ public:
                 current_time = 0;
                 m_currentAudioId.clear();
 
-                // Kolejka ma pierwszenstwo nad playlist_mode
+                // Kolejka ma pierwszenstwo nad auto_start
                 if (!m_queue.empty())
                 {
                     QueueItem item = m_queue.front();
                     m_queue.pop_front();
                     PlayPath(item.id, item.path.c_str());
                 }
-                else if (m_settings.playlist_mode && !m_settings.GetCurrentUnlocked().empty())
+                else if (m_settings.auto_start && !m_settings.GetCurrentUnlocked().empty())
                 {
                     // Nie zawijaj playlisty w kolko - po ostatnim utworze zatrzymaj sie
                     // i czekaj na nowe odblokowanie, zamiast wracac do pierwszego.
@@ -316,12 +332,28 @@ private:
     std::string           m_currentAudioId;
     std::deque<QueueItem> m_queue;
 
+    // Gdy nic aktualnie NIE GRA (auto_start off - tylko przegladanie/zaznaczanie,
+    // albo w ogole nic jeszcze nie grało) - cykluj wzgledem ostatnio zaznaczonego
+    // (selected_audio), a nie wzgledem m_currentAudioId, ktore zostaje ustawione
+    // (i NIE czyszczone) po Pause() - inaczej nawigacja "zamrazalaby sie" na
+    // wstrzymanym utworze i nie dalo by sie przejsc dalej samym zaznaczaniem.
     int FindCurrentIndexInUnlocked() const
     {
         const std::vector<std::string>& ids = m_settings.GetCurrentUnlocked();
+        const std::string& ref = IsPlaying() ? m_currentAudioId : m_settings.selected_audio;
         for (int i = 0; i < (int)ids.size(); i++)
-            if (ids[i] == m_currentAudioId) return i;
+            if (ids[i] == ref) return i;
         return -1;
+    }
+
+    // Przy Autoplay ON odtwarza od razu; przy OFF tylko zaznacza (selected_audio)
+    // bez przerywania/zmiany aktualnie zaladowanego audio.
+    bool SelectOrPlay(const std::string& id)
+    {
+        if (m_settings.auto_start)
+            return Play(id);
+        m_settings.selected_audio = id;
+        return true;
     }
 
     bool PlayAudio(const Audio& audio)
@@ -333,6 +365,8 @@ private:
 
         if (!m_audioPlayer.Play())
             return false;
+
+        LogAudioStart("PlayAudio", audio.id_Audio.c_str(), m_settings.auto_start);
 
         current_time = 0;
 
