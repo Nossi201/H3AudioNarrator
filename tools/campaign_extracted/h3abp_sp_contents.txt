@@ -1,0 +1,3 @@
+Zawartość h3abp_sp.lod:
+======================================================================
+Artifact.def         rozmiar=    195668 skompresowany=TAK

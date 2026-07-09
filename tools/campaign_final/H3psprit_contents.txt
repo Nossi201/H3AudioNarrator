@@ -1,0 +1,20 @@
+Zawartość H3psprit.lod:
+======================================================================
+AHplace.def          rozmiar=      2569 skompresowany=TAK
+AHplace.msk          rozmiar=        14 skompresowany=NIE
+Artifact.def         rozmiar=    195668 skompresowany=TAK
+ArtifBon.def         rozmiar=     61040 skompresowany=TAK
+AvwAttak.def         rozmiar=    404000 skompresowany=TAK
+AvwAttak.msk         rozmiar=        14 skompresowany=NIE
+AvxBor80.def         rozmiar=      2379 skompresowany=TAK
+AvxBor80.msk         rozmiar=        14 skompresowany=NIE
+BoRes.def            rozmiar=     13337 skompresowany=TAK
+CprSmall.def         rozmiar=    152893 skompresowany=TAK
+FlagPort.def         rozmiar=    151607 skompresowany=TAK
+ItPa.def             rozmiar=     68843 skompresowany=TAK
+ItPt.def             rozmiar=    150020 skompresowany=TAK
+SpellBon.def         rozmiar=     30889 skompresowany=TAK
+SskilBon.def         rozmiar=     14612 skompresowany=TAK
+TwCrPort.def         rozmiar=    624230 skompresowany=TAK
+Un32.def             rozmiar=    127131 skompresowany=TAK
+Un44.def             rozmiar=    224619 skompresowany=TAK
