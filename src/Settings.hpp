@@ -26,9 +26,8 @@
 struct Settings
 {
     int                volume;
-    bool               auto_start;
+    bool               auto_start;    // jeden przelacznik: auto-play dialogow + auto-advance playlisty + klik/next/prev odtwarza od razu
     bool               linger_after_close;
-    bool               playlist_mode;
     std::string        selected_audio;
     std::vector<Audio> audio_array;
 
@@ -36,7 +35,7 @@ struct Settings
 
     Settings()
         : volume(500), auto_start(true), linger_after_close(true),
-          playlist_mode(false), m_currentMap("")
+          m_currentMap("")
     {}
 
     // -----------------------------------------------------------------------
@@ -65,7 +64,6 @@ struct Settings
         f << "volume="              << volume                        << "\n";
         f << "auto_start="          << (auto_start ? 1 : 0)         << "\n";
         f << "linger_after_close="  << (linger_after_close ? 1 : 0) << "\n";
-        f << "playlist_mode="       << (playlist_mode ? 1 : 0)      << "\n";
         f << "selected_audio="      << selected_audio                << "\n";
 
         for (const auto& kv : unlocked_per_map)
@@ -100,7 +98,6 @@ struct Settings
             if      (strcmp(key, "volume")             == 0) volume             = atoi(val);
             else if (strcmp(key, "auto_start")         == 0) auto_start         = (atoi(val) != 0);
             else if (strcmp(key, "linger_after_close") == 0) linger_after_close = (atoi(val) != 0);
-            else if (strcmp(key, "playlist_mode")      == 0) playlist_mode      = (atoi(val) != 0);
             else if (strcmp(key, "selected_audio")     == 0) selected_audio     = MigrateLegacyId(val);
             else if (strcmp(key, "unlocked")           == 0)
             {

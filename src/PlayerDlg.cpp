@@ -124,9 +124,12 @@ BOOL PlayerDlg::OnCreate()
         /*arrowsEnabled=*/FALSE
     );
 
-    // Autoplay – natywny checkbox H3 (sysopchk.def, 32×24) + etykieta
+    // Autoplay – natywny checkbox H3 (sysopchk.def, 32×24) + etykieta.
+    // Jeden przelacznik odpowiedzialny za wszystko: auto-play dialogow kampanii,
+    // auto-advance playlisty PO ZAKONCZENIU utworu, oraz czy klik na wiersz/next/prev
+    // odtwarzaja od razu (ON) czy tylko zaznaczaja (OFF).
     {
-        bool on = g_player.GetSettings().playlist_mode;
+        bool on = g_player.GetSettings().auto_start;
         CreateOnOffCheckbox(PC_X, 124, ID_BTN_AUTOPLAY, on ? 1 : 0, on ? 0 : 1);
         CreateText(PC_X + 36, 124, PC_W - 36, 26,
             "Autoplay",
@@ -199,17 +202,27 @@ BOOL PlayerDlg::OnCreate()
 
 BOOL PlayerDlg::OnLeftClick(INT itemId, H3Msg& msg)
 {
-    // Klik na wiersz playlisty – odtwarza kliknięty plik
+    // Klik na wiersz playlisty: przy Autoplay ON odtwarza od razu (stare zachowanie),
+    // przy Autoplay OFF tylko zaznacza (trzeba nacisnac Play zeby odtworzyc).
     if (itemId >= ID_RIGHT_ITEM_BASE && itemId < ID_RIGHT_ITEM_BASE + N_VISIBLE)
     {
         int absIdx = m_rightScroll + (itemId - ID_RIGHT_ITEM_BASE);
-        const std::vector<std::string>& ids = g_player.GetSettings().GetCurrentUnlocked();
+        Settings& s = g_player.GetSettings();
+        const std::vector<std::string>& ids = s.GetCurrentUnlocked();
         if (absIdx < (int)ids.size())
         {
-            g_player.Play(ids[absIdx]);
-            UpdateCenter();
+            if (s.auto_start)
+            {
+                g_player.Play(ids[absIdx]);
+                UpdateCenter();
+                RequestRedrawToolbarRegion();
+            }
+            else
+            {
+                s.selected_audio = ids[absIdx];
+                s.Save(g_settingsPath.c_str());
+            }
             UpdateRightList();
-            RequestRedrawToolbarRegion();
         }
         return FALSE;
     }
@@ -233,13 +246,13 @@ BOOL PlayerDlg::OnLeftClick(INT itemId, H3Msg& msg)
     case ID_BTN_AUTOPLAY:
     {
         Settings& s = g_player.GetSettings();
-        s.playlist_mode = !s.playlist_mode;
+        s.auto_start = !s.auto_start;
         s.Save(g_settingsPath.c_str());
         // Ustaw frame checkboxa ręcznie (persistent toggle)
         if (H3DlgDefButton* cb = GetDefButton(ID_BTN_AUTOPLAY))
         {
-            cb->SetFrame(s.playlist_mode ? 1 : 0);
-            cb->SetClickFrame(s.playlist_mode ? 0 : 1);
+            cb->SetFrame(s.auto_start ? 1 : 0);
+            cb->SetClickFrame(s.auto_start ? 0 : 1);
         }
         Redraw();
         return FALSE;
@@ -313,7 +326,12 @@ void PlayerDlg::UpdateRightList()
     if (H3DlgScrollbar* sb = GetScrollbar(ID_SCROLL_RIGHT))
         sb->SetTick(m_rightScroll);
 
-    std::string playingId = g_player.GetCurrentAudioId();
+    // Jeden marker (GOLD): odtwarzany, a gdy nic aktualnie NIE GRA (w tym gdy cos
+    // jest tylko wstrzymane) - ostatnio zaznaczony/wybrany. Sprawdzamy IsPlaying(),
+    // nie samo "czy GetCurrentAudioId niepuste" - inaczej wstrzymany utwor
+    // blokowalby podswietlenie nowego zaznaczenia w nieskonczonosc.
+    std::string activeId = g_player.IsPlaying() ? g_player.GetCurrentAudioId()
+                                                 : g_player.GetSettings().selected_audio;
 
     for (INT i = 0; i < N_VISIBLE; i++)
     {
@@ -334,9 +352,8 @@ void PlayerDlg::UpdateRightList()
             ids[absIdx].c_str());
         t->SetText(buf);
 
-        bool playing = (ids[absIdx] == playingId && !playingId.empty());
-        *(INT32*)((BYTE*)t + 0x44) = playing ? NH3Dlg::NTextColor::GOLD
-                                              : NH3Dlg::NTextColor::WHITE;
+        bool active = (ids[absIdx] == activeId && !activeId.empty());
+        *(INT32*)((BYTE*)t + 0x44) = active ? NH3Dlg::NTextColor::GOLD : NH3Dlg::NTextColor::WHITE;
     }
 
     Redraw();
