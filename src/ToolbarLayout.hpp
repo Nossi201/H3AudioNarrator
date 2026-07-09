@@ -15,3 +15,7 @@ void EnsureToolbar(h3::H3AdventureMgrDlg* advDlg);
 // Zwraca indeks przycisku toolbara pod punktem (x,y) w koordynatach okna H3.
 // -1 jesli poza obszarem toolbara.
 int HitToolbarButton(int x, int y);
+
+// Zwraca true tylko jesli mapa przygody jest aktualnie aktywnym,
+// wierzchnim ekranem gry (nie menu glowne, nie miasto/bitwa nad mapa).
+bool IsAdventureMapForeground();

@@ -283,3 +283,26 @@ int HitToolbarButton(int x, int y)
     }
     return -1;
 }
+
+bool IsAdventureMapForeground()
+{
+    __try
+    {
+        // Tylko status managera mapy przygody - NIE porownujemy z wm->lastDlg.
+        // Dymki H3Messagebox (np. "nowy dzien", dialogi questowe) sa osobnymi,
+        // tymczasowymi oknami stawianymi NAD dialogiem mapy przygody - w trakcie
+        // ich wyswietlania wm->lastDlg wskazuje na nie, a nie na adv->dlg, mimo
+        // ze wciaz jestesmy na mapie przygody (adv->dlg pozostaje aktywnym
+        // dialogiem-wlascicielem). Porownanie z lastDlg falszywie rozpoznawalo
+        // to jako "opuszczenie mapy" i gasilo pasek przy kazdym takim oknie.
+        // Status managera (ACTIVE/DISABLED/DESTROYED) zmienia sie tylko przy
+        // faktycznym niszczeniu/tworzeniu managera mapy przygody (powrot do
+        // menu glownego), nie przy tymczasowych dialogach nad nim.
+        H3AdventureManager* adv = P_AdventureMgr();
+        return adv && adv->status == H3Manager::ACTIVE && adv->dlg;
+    }
+    __except (EXCEPTION_EXECUTE_HANDLER)
+    {
+        return false;
+    }
+}
