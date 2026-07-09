@@ -1,0 +1,1073 @@
+[
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 0,
+    "offset": 5,
+    "length": 18,
+    "text": "Podziemia i diabły"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 1,
+    "offset": 27,
+    "length": 282,
+    "text": "Nigdy w historii Erathii nie zdarzyło się, by stolica wpadła w ręce wroga. Dziś rozpoczynamy kampanię, która na zawsze to zmieni. Nigdy więcej nie pozwolimy, by Erathia narzucała nam religię i styl życia. Mamy przewagę - element zaskoczenia. Wkrótce zwycięstwo również będzie nasze."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 2,
+    "offset": 331,
+    "length": 78,
+    "text": "\u0000\u0000Ů\u0000\u0000\u0000Zanim Erathia wezwie na pomoc elfy, uderzymy w samo serce  ich krainy -"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 3,
+    "offset": 561,
+    "length": 464,
+    "text": "Południowo-zachodnie wybrzeże Erathii zamieszkane jest przez dużą populację elfów. Zielone i złote smoki, które również upodobały sobie ten region, znacznie powiększają ich potęgę militarną. Zanim podbijemy ten obszar i otworzymy sobie drogę do Steadwick, musimy wybić do nogi wszystkie smoki. Nasi sprzymierzeńcy, wojownicy Kreegan z królestwa Eeofol poprosili o zaszczyt wykonania tej misji. Kreeganie to dobrzy żołnierze, ta rzeź z pewnością sprawi im radość..."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 4,
+    "offset": 1102,
+    "length": 101,
+    "text": "\u0000\u0000ć\u0000\u0000\u0000Nasze siły pokonały większą część drogi do stolicy Erathii podziemnymi tunelami. Aby zachować e"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 5,
+    "offset": 1345,
+    "length": 537,
+    "text": "Raporty wywiadu informują o flocie okrętów wojennych z Enroth, które przybiły do południowego wybrzeża Erathii. Nie wiemy, kto nimi dowodzi, ani ile ich jest. Z pewnych źródeł wiemy jednak, że flotą z pewnością nie dowodzi król Roland Ironfist.  Nasze plany nie ulegają więc zmianom. Zaczynamy ostatnią fazę podziemnej inwazji w celu umocnienia naszych pozycji wzdłuż północno-zachodniego wybrzeża. W razie nagłych problemów możemy szybko przerzucić posiłki z Nighon. Ostatnie tunele są już gotowe, będziesz więc mieć taktyczną przewagę."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 6,
+    "offset": 1955,
+    "length": 197,
+    "text": "Zdobądź stolicę Erathii - Steadwick. To zadanie nie będzie łatwe gdyż jest ona doskonale broniona. Co gorsza, nadciągają wojska Królowej Katarzyny. Musimy zdobyć Steadwick zanim przybędzie odsiecz!"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 7,
+    "offset": 2159,
+    "length": 223,
+    "text": "Katarzyna Ironfist otrzymała pomoc z Brakady i AvLee. Wie, że zbliżamy się do Steadwick, musimy więc zająć miasto przed jej przybyciem. Kiedy już podbijemy stolicę Erathii, nawet sama Katarzyna nie wyrwie jej z naszych rąk."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 8,
+    "offset": 2655,
+    "length": 72,
+    "text": "\u0001\u000e\u0000\u0000\u0000Diabelski planŐ\u0000\u0000\u0000Aby zwyciężyć, musisz odszukać i zabić Królową Zł"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 9,
+    "offset": 3108,
+    "length": 90,
+    "text": "Na południowym zachodzie żyje mędrzec, który podobno wie jak dostać się do Smoczej Doliny."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 10,
+    "offset": 98781,
+    "length": 168,
+    "text": "Twoi wywiadowcy informują, że pobliskie tereny są bogate w zasoby zaś na południu mieszka szaman który doskonale zna okoliczne tereny i być może będzie chciał ci pomóc."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 11,
+    "offset": 116184,
+    "length": 266,
+    "text": "\u0000\u0000\u0000\u0000\u00005\n\u0001&\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u00003\t\u0001\u000f\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0005\u0000\u0000\u0000Intro\u0017\u0001\u0000\u0000Nasze sprawy mają się dobrze. Udało się nam otworzyć wulkan i zbudować fort w odludnym lesie rosnącym zaraz przy granicy Erathii. Prace nad tunelem prowadzącym do stolicy wroga posuwają się szybko. Twoim obecnym zadaniem"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 12,
+    "offset": 116541,
+    "length": 254,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000Intro Part 2Ë\u0000\u0000\u0000Królowa Złotych Smoków to potężny sprzymierzeniec AvLee. Musisz odnaleźć jej legowisko i ją zniszczyć. To znacznie osłabi AvLee, a dla nas droga do Erathii stanie otworem. Odejdź teraz i powróć w chwale!\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 13,
+    "offset": 116965,
+    "length": 72,
+    "text": "\u0001\u0007\u0000\u0000\u0000Przełomó\u0000\u0000\u0000Aby wygrać, musisz zdobyć wszystkie wrogie miasta i poko"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 14,
+    "offset": 220561,
+    "length": 256,
+    "text": "\u0000- \u0000Y\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001á\u0000\u0000\u0000Niespodziewanie potężny głos z niebios ogłasza: \"Niewierni! Sprofanowaliście święte miejsce i zostaniecie ukarani!\"  Ogarnia cię nieprzyjemne poczucie, że stawianie chciwości przed celem twojej misji nie było dobrym pomysłem.\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Î˙˙˙"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 15,
+    "offset": 242656,
+    "length": 18,
+    "text": "Day 1 Intro Part 1"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 16,
+    "offset": 242678,
+    "length": 244,
+    "text": "Gdy ruszyliśmy wgłąb tuneli, odkryliśmy kolonię, która została rzekomo dawno temu zniszczona. Jeżeli udałoby sie nam 'przekonać' kolonię do współpracy, mogłaby dostarczać dodatkowe wojska do zabezpieczenia miast znajdujących się na powierzchni."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 17,
+    "offset": 242976,
+    "length": 18,
+    "text": "Day 1 Intro Part 2"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 18,
+    "offset": 242998,
+    "length": 151,
+    "text": "Mamy agenta, który zamieszkuje położoną niedaleko wysepkę i szpieguje dla nas okoliczne miasta.  Odnajdź go, a dostarczy ci  wielu ważnych informacji."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 19,
+    "offset": 243181,
+    "length": 254,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000News˙\u0000\u0000\u0000Zbliża się jeden z twoich doradców.  \"Otrzymaliśmy raport mówiący, że okręty z Enroth zakotwiczyły u południowych wybrzeży Erathii.  W chwili obecnej nie wiemy kto dowodzi flotą, jednak mamy wiadomość z pewnego źródła, że ni"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 20,
+    "offset": 243528,
+    "length": 310,
+    "text": "Zbliża się jeden z twoich doradców.  \"Wieści nie są pomyślne. Siły enrothiańskie dowodzone są przez Katarzynę Ironfist, córkę niedawno zmarłego króla Erathii.  Katarzyna dowodzi znacznymi siłami i zdążyła się już umocnić wzdłuż wybrzeża. Jeżeli się nie pośpieszymy, królowa może osiągnąć Steadwick przed nami.\""
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 21,
+    "offset": 244026,
+    "length": 16,
+    "text": "Upadek Steadwick"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 22,
+    "offset": 244046,
+    "length": 62,
+    "text": "Aby wygrać, musisz w ciągu 3 miesięcy zdobyć miasto Steadwick."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 23,
+    "offset": 244124,
+    "length": 11,
+    "text": "Gen. Kendal"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 24,
+    "offset": 244145,
+    "length": 11,
+    "text": "Gen. Kendal"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 25,
+    "offset": 445947,
+    "length": 11,
+    "text": "Gen. Kendal"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 26,
+    "offset": 463274,
+    "length": 172,
+    "text": "Jak na razie radzisz sobie doskonale.  Udało ci się spustoszyć wschodnią Erathię i znajdujesz się w bliskiej odległości od jej stolicy - Steadwick. Musisz ją szybko podbić!"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 27,
+    "offset": 463511,
+    "length": 138,
+    "text": "Brakada i AvLee wysłały posiłki Królowej Katarzynie, która zbliża się ze znaczną armią z południa.  Musimy zdobyć stolicę zanim nadejdzie!"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 28,
+    "offset": 463711,
+    "length": 208,
+    "text": "Otrzymujesz właśnie raport dotyczący postępów wojsk Królowej Katarzyny.  Siły z Nighonu i Eofolu starają sie opóźnić przemarsz jej wojsk, ale nie będą w stanie ich zatrzymać na dłużej niż dwa, trzy miesiące."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 29,
+    "offset": 463981,
+    "length": 230,
+    "text": "Otrzymujesz raport z południowego frontu.  Siły Królowej zostały zatrzymane dając ci jakieś dodatkowe dwa miesiące na zdobycie stolicy.  Ponieślismy jednak znaczące straty, więc nie pozwól, aby nasze poświęcenie poszło na marne."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 30,
+    "offset": 464273,
+    "length": 230,
+    "text": "Otrzymujesz raport z południowego frontu. Nasze siły ciągle starają się powstrzymać armię wroga, jednak Królowa stale posuwa się na północ.  Masz w najlepszym razie jeszcze trzy, cztery tygodnie zanim Katarzyna osiągnie Steadwick."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 31,
+    "offset": 464568,
+    "length": 159,
+    "text": "Wojska Katarzyny kontynuują swój pochód, jej armia jest o dwa tygodnie drogi stąd.  Jeżeli się nie pospieszysz, nie uda się nam przygotować stolicy do obrony."
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 32,
+    "offset": 464792,
+    "length": 131,
+    "text": "Wojska Katarzyny są o siedem dni drogi stąd!  Jeżeli się nie pospieszysz, dojdą do Steadwick przed tobą i wszystko będzie stracone!"
+  },
+  {
+    "source": "h3abp_bm.lod:Evil1.h3c",
+    "id": 33,
+    "offset": 464987,
+    "length": 156,
+    "text": "Tego ranka potężna armia pod dowództwem Królowej Katarzyny Ironfist dotarła do Steadwick.  Nie mamy wyboru, musimy się wycofać.  Zawiodłeś nas... całkowicie"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 0,
+    "offset": 4,
+    "length": 3074,
+    "text": "\u0000Oswobodzenieľ\u0000\u0000\u0000Umocniliśmy nasze pozycje w Erathii, ale kraj jest niemal doszczętnie zrujnowany. Zaczniemy od oswobodzenia stolicy i nie zatrzymamy się, dopóki ostatni najeźdźca  nie opuści naszych granic.\u0000\"\u000b\u0000\u0000\u0000Good-2a.h3mă \u0000\u0000\u0000\u0001\u0001°\u0000\u0000\u0000Pierwszym krokiem ku wolności Erathii będzie odbicie stolicy. Nie będzie to łatwe zadanie, tym bardziej, że władcy podziemi zablokowali przesmyk prowadzący do doliny Steadwick.\u0001\t\b`\u0001\u0000\u0000Raporty wywiadu informują, że w Steadwick zabarykadowały się oddziały wroga. Wszystkie drogi do stolicy są zablokowane, a posiłki dla wroga docierają podziemnymi tunelami. Armie operujące dotąd na zachodzie spotkają się z nami na polu bitwy. To wszystko co mam do powiedzenia. Nie spoczniemy, dopóki stolica królestwa nie znajdzie się w naszych rękach.\u0000\u000f\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0003\u0007\u0006\u0010'\u0000\u0000\u0001ý˙\r\u0000\u0002\u0000\u0001ý˙)\u0000\u0002\u0000\u000b\u0000\u0000\u0000Good-2b.h3moB\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0000Do pałacu królowej Katarzyny przyszedł list od Lucyfera Kreegana III, najwyższego dowódcy sił zbrojnych Eeofolu. Lucyfer twierdzi, że pojmał męża Katarzyny, Rolanda Ironfista z Enroth i wyda go dopiero po zapłaceniu okupu w wysokości miliona sztuk złota. \n\u0001\n\u0002Ô\u0002\u0000\u0000Nazywam się Dorell, jestem ambasadorem z AvLee. Przynoszę wiadomości od królowej Katarzyny. Po odbiciu stolicy, na dwór przybył posłaniec Kreegan. Twierdzi, że mają zakładnika, którym jest król Erathii,  Roland.  Chcą dostać milion sztuk złota okupu. Nie jesteśmy w stanie potwierdzić prawdziwości jego słów. Bez względu na to, czy posłaniec kłamie czy nie, królowa nie chce zapłacić okupu. Posłaniec zdradził nam, iż król ma być podobno trzymany w fortecy klanu Kreelah znajdującej się głęboko na ziemiach królestwa Eofol. Twoim zadaniem jest wykrycie domniemanego miejsca przetrzymywania króla i uwolnienie go. Z powodu wagi misji otrzymasz wsparcie z AvLee. Pamiętaj: możesz uratować króla lub wpaść w śmiertelną pułapkę.\u0000\u000f\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0000\u0000€\u0000\u0000\u0000\u0000\u0001\u0000\u0003\u0004ý˙\u001f\u0004ý˙\u0010\u0004ý˙,\u000b\u0000\u0000\u0000Good-2c.h3m°E\u0000\u0000\u0001\u0001\u0001Î\u0000\u0000\u0000Ambasador Brakady w imieniu swego władcy, Gavina Magnusa, zaoferował pomoc w uwolnieniu zachodniej Erathii z rąk tataliańskich i krewlodzkich maruderów. Czas przypomnieć sąsiadom, którędy przebiega granica.\u0001\u000b\u0005ż\u0001\u0000\u0000Jestem Winstan Langer, ambasador z Brakady rządzonej przez Wielkiego Wezyra Gavina Magnusa. Siły z Tatalii i Krewlodu ścierają się nieustannie w bitwach na ziemiach zachodniej Erathii. Chociaż konflikt trwa od kilku miesięcy, wciąż trwają walki. Choć mój władca jest zmartwiony wybuchem kolejnej wojny, przysyła ci posiłki, aby wesprzeć cię w potrzebie. Tej bitwy nie rozstrzygnie talent stratega, ale ilość gotowych na śmierć rycerzy. Powodzenia.\u0000\u000f\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0003\u0006ý˙\u0002\u0003\u0003ý˙\r\u0000\u0003ý˙\u0007\u0000\u000b\u0000\u0000\u0000Good-2d.h3m+Â\u0000\u0000\u0006\u0001\u0002>\u0001\u0000\u0000Wiemy już, że Erathia znajduje się pod kontrolą Nighonu i Eeofolu. Dosłownie podkopali się pod Nigońska Cieśniną i włamali do tuneli krasnoludów przy wybrzeżu Erathii. teraz musimy zmusić ich, by znów zeszli do tuneli - tym razem używając ich jako jedynej drogi ucieczki. Musimy na zawsze oczyścić z nich nasze ziemie!\u0001\f\u0006`\u0002\u0000\u0000Wiemy już, jak i dlaczego Erathia padła pod nawałem wojsk z Nighonu i Eeofolu. Używa"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 1,
+    "offset": 3661,
+    "length": 108,
+    "text": "\u0001\u0011\u0000\u0000\u0000Bitwa o Steadwick‰\u0000\u0000\u0000Aby wygrać, musisz zdobyć Steadwick. Poszukaj jasnowidza - wypełnienie jego misji"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 2,
+    "offset": 4036,
+    "length": 11,
+    "text": "Game Hint 1"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 3,
+    "offset": 4051,
+    "length": 95,
+    "text": "Przypuszczalnie Władcy Podziemi poprzez podziemne tunele dostarczają zaopatrzenie do Steadwick."
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 4,
+    "offset": 4150,
+    "length": 11,
+    "text": "Game Hint 2"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 5,
+    "offset": 4165,
+    "length": 88,
+    "text": "Władcy Podziemi kontrolują dwie bramy do podziemnych krain na zewnątrz Doliny Steadwick."
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 6,
+    "offset": 4257,
+    "length": 11,
+    "text": "Game Hint 3"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 7,
+    "offset": 4272,
+    "length": 83,
+    "text": "Generał Morgan Kendal trzymany jest jako jeniec w więzieniu na północnym zachodzie."
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 8,
+    "offset": 202057,
+    "length": 11,
+    "text": "Gen. Kendal"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 9,
+    "offset": 231732,
+    "length": 256,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0007\u0000\u0000\u0000Intro 1á\u0000\u0000\u0000Wczesne raporty szpiegów wskazują na to, że wojska z Nighonu i Eeofolu umocniły swoje pozycje w Dolinie Steadwick. Jako że wszystkie przejścia na lądzie są zablokowane, posiłki muszą być dostarczane poprzez podziemne tunele. \u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 10,
+    "offset": 232014,
+    "length": 251,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000Intro 2%\u0001\u0000\u0000Aby wejść do doliny, będziesz również musiał odnaleźć przejście, którego używają wrogowie lub znależć drogę wśród gór. Czas na dobre wiadomości - mamy poparcie Brakady. Jeśli tylko uda nam się tam dotrzeć, otrzymamy ta"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 11,
+    "offset": 232394,
+    "length": 29,
+    "text": "News of General Kendal part 1"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 12,
+    "offset": 232427,
+    "length": 160,
+    "text": "Ci, którzy przeżyli oblężenie Staedwick twierdzą, że po śmierci króla Gryphonhearta, rządy w Erathi przypadły Morganowi Kendalowi, generałowi sił erathiańskich."
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 13,
+    "offset": 232641,
+    "length": 29,
+    "text": "News of General Kendal part 2"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 14,
+    "offset": 232674,
+    "length": 209,
+    "text": "Świadkowie twierdzą, że genarał Kendal został schwytany podczas walki. Krążą pogłoski, że jest przetrzymywany w więzieniu na pólnocnym zachodzie. Dobrym pomysłem byłoby uwolnienie tego błyskotliwego przywódcy."
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 15,
+    "offset": 233066,
+    "length": 72,
+    "text": "\u0000\u0012\u0000\u0000\u0000Rozprawa z diabłem­\u0000\u0000\u0000Aby wygrać, musisz przejąć miasto Kleesive. N"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 16,
+    "offset": 233330,
+    "length": 12,
+    "text": "Przywódca kl"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 17,
+    "offset": 288071,
+    "length": 12,
+    "text": "Przywódca kl"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 18,
+    "offset": 291627,
+    "length": 103,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001n\u0000\u0000\u0000Jeden z twoich żołnierzy nagle krzyczy: \"Zasadzka!\". Masz dokładnie tyle czasu, ile potrzeba"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 19,
+    "offset": 291848,
+    "length": 103,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001n\u0000\u0000\u0000Jeden z twoich żołnierzy nagle krzyczy: \"Zasadzka!\". Masz dokładnie tyle czasu, ile potrzeba"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 20,
+    "offset": 302134,
+    "length": 13,
+    "text": "Karczma Torga"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 21,
+    "offset": 306725,
+    "length": 13,
+    "text": "Wieś Amnestia"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 22,
+    "offset": 307046,
+    "length": 12,
+    "text": "Intro part 1"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 23,
+    "offset": 307062,
+    "length": 163,
+    "text": "Z listu od przywódcy Eefolu wynika wyraźnie, że Król Roland Ironfist jest jeńcem diabłów i tylko okup w wyskości miliona złotych monet może utrzymać go przy życiu."
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 24,
+    "offset": 307257,
+    "length": 251,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000Intro part 2ň\u0000\u0000\u0000Żądania zawarte w liście w żaden sposób nie mogą być potwierdzone, ale przesłuchiwany posłaniec ujawnił, iż klan Kreelah przetrzymuje Rolanda na terytorium Eeofolu. Niezależnie od tego czy to prawda czy nie, Królo"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 25,
+    "offset": 307569,
+    "length": 251,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000Intro part 3\"\u0001\u0000\u0000Główna forteca klanu Kreelah, Kleesive, jest położona blisko granicy z Erathią. Zdobądź ja i uwolnij Króla, jeżeli rzeczywiście jest tam więziony. Ponieważ nie wydaje nam się, aby Klan trzymał więźnia tak blisko g"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 26,
+    "offset": 307951,
+    "length": 12,
+    "text": "Intro part 4"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 27,
+    "offset": 307967,
+    "length": 108,
+    "text": "Siły z AvLee właśnie przybyły, aby pomóc nam w wypełnieniu zadania. Powodzenia i niech chronią cię Niebiosa."
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 28,
+    "offset": 308258,
+    "length": 72,
+    "text": "\u0000\u0015\u0000\u0000\u0000Neutralna działalnośćä\u0000\u0000\u0000Aby wygrać, musisz zająć wszystkie miasta"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 29,
+    "offset": 365262,
+    "length": 68,
+    "text": "Żywiołaki wody nie wydają się być chętne do pożyczenia swojej łodzi."
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 30,
+    "offset": 383502,
+    "length": 68,
+    "text": "Żywiołaki wody nie wydają się być chętne do pożyczenia swojej łodzi."
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 31,
+    "offset": 384054,
+    "length": 192,
+    "text": "Zwiadowca donosi, że wzdłuż granicy znajduje się wiele obozów uchodźców, zapełnionych stworzeniami które zmuszone zostały do opuszczenia swoich domów z powodu nieustajacych walk w tym rejonie."
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 32,
+    "offset": 384300,
+    "length": 12,
+    "text": "Intro part 1"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 33,
+    "offset": 384316,
+    "length": 269,
+    "text": "Od miesięcy Tatalia i Krewlod walczyły z Erathią oraz między sobą, tocząc wiele granicznych potyczek. Czarodzieje z Brakady byliby zadowoleni, gdyby mogli zostać z dala od wszelkich konfliktów, ale po tym wszystkim co się wydarzyło, zdecydowali się udzielić nam pomocy."
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 34,
+    "offset": 384617,
+    "length": 221,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000Intro part 2ý\u0000\u0000\u0000Czarodzieje ustanowili posterunek na wspólnej granicy Erathii, Tatalii i Krewlodu. Nasze siły zostały wysłane w tamten rejon, aby do nich dołączyć. Powinniśmy być w stanie nie tylko p"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 35,
+    "offset": 384962,
+    "length": 12,
+    "text": "Intro part 3"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 36,
+    "offset": 384978,
+    "length": 146,
+    "text": "Uderz szybko i wyeliminuj cały opór w okolicy. Musimy nauczyć naszych sąsiadów, że próba wykorzystania osłabienia Erathii była bardzo nierozsądna."
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 37,
+    "offset": 385307,
+    "length": 108,
+    "text": "\u0001\u0013\u0000\u0000\u0000Tunele i troglodyciä\u0000\u0000\u0000Aby wygrać, musisz zająć wszystkie miasta i zamki wroga, oraz pokonać wszystkich"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 38,
+    "offset": 584544,
+    "length": 14,
+    "text": "Wyspa Cyklopów"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 39,
+    "offset": 607153,
+    "length": 82,
+    "text": "Oto leży przed tobą Tarcza Strażnika Niebios. Czy uznajesz, że masz do niej prawa?"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 40,
+    "offset": 607285,
+    "length": 69,
+    "text": "Oto leży przed tobą Hełm Gromu. Czy uznajesz, że masz do niego prawa?"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 41,
+    "offset": 618677,
+    "length": 22,
+    "text": "Biblioteka Przeklętych"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 42,
+    "offset": 631932,
+    "length": 256,
+    "text": "\u0000`E\u0001–\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000®Ű\u0016ĺ\u0000\u0000\u0004\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000\u0000\f\u0000\u0000\u0000Intro part 1Č\u0000\u0000\u0000Władcy Podziemi są bardzo wyrachowani. Podczas, gdy diabły z Eofolu atakują granice Erathii, siły Nighonu podkopują się w okolicach Steadwick. Nasze ziemie atakowane są równocześnie w wielu miejscach.\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 43,
+    "offset": 632213,
+    "length": 239,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000Intro part 2ă\u0000\u0000\u0000Siły wojskowe Erathii powinny zatrzymać inwazję na wschodnią część królestwa. Niestety masz na karku Władców Podziemi. Twoim zadaniem jest odparcie ich wojsk w okolice cieśniny Nighonu i utrzymanie lin"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 44,
+    "offset": 632510,
+    "length": 239,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000Intro part 3Í\u0000\u0000\u0000W tym decydującym natarciu będą nam pomagały siły AvLee i Brakady. W tunelach nie mogą przetrwać żadne posterunki Nighonu i Eofolu. Musimy dać Władcom Podziemi lekcję, której nigdy nie zapomną. Powodze"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 45,
+    "offset": 632807,
+    "length": 12,
+    "text": "Sailing away"
+  },
+  {
+    "source": "h3abp_bm.lod:Good2.h3c",
+    "id": 46,
+    "offset": 632823,
+    "length": 121,
+    "text": "Masz szansę wysłać drogą morską sporą armię do Nighonu, uważaj jednak na zdradzieckie cieśniny, najeżone ostrymi skałami."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 0,
+    "offset": 5,
+    "length": 15,
+    "text": "Ziarna niechęci"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 1,
+    "offset": 24,
+    "length": 194,
+    "text": "Najeźdźcy zostali wreszcie wygnani ze Spornych Ziem, przyszedł czas odbudowy. Lecz pojawił się człowiek, Faruk Wlenin, który pragnie na zawsze wyzwolić Sporne Ziemie spod władzy Erathii i AvLee."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 2,
+    "offset": 242,
+    "length": 64,
+    "text": "\u0003\u0001Í\u0000\u0000\u0000By podkreślić wagę deklaracji niepodległości potrzebny nam"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 3,
+    "offset": 460,
+    "length": 466,
+    "text": "Po raz pierwszy w historii Spornych Ziem ludzie i elfy walczyli ramię w ramię w obronie swych siedzib. Lecz gdy opadnie radość, powróci dawna nienawiść i groźba wybuchu wojny domowej. Przyszedł czas, by zastanowić się nad przyszłością Spornych Ziem. Jeśli nasza walka o niepodległość ma przynieść trwałe zwycięstwo, potrzeba czegoś więcej niż tylko silnej armii. Musisz odszukać Graal zaginiony gdzieś w zaczarowanej krainie, gdzie jednorożce rozmawiają z drzewami."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 4,
+    "offset": 1013,
+    "length": 178,
+    "text": "Graal dotarł do Welnin, teraz musimy rozbudować to miasto. Armie Erathii i AvLee zaatakują nas ze wszystkich stron. Wkrótce dowiedziemy, że Sporne Ziemie już do nich nie należą!"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 5,
+    "offset": 1198,
+    "length": 455,
+    "text": "Wydarzenia zachodzą w błyskawicznym tempie. Siły Erathii i AvLee przybyły, aby \"przywrócić porządek\" i zdusić naszą walkę o niepodległość w zarodku. Musimy szybko zabezpieczyć okolice miasta Welnin i wygnać wroga poza granice naszych ziem. Jeżeli nie uda nam się tego dokonać, stracimy wszystko o co walczyliśmy - dwie nacje ponownie zetrą się ogromnej wojnie. W dniu dzisiejszym deklarujemy naszą niepodległość i niezależność od królestw Erathii i Avlee."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 6,
+    "offset": 1742,
+    "length": 254,
+    "text": "Podróż do Welnin nie była łatwa, lecz najgorsze jeszcze przed nami. Łowca Ryland posiadacz Graala, musi dotrzeć do Welnin, unikając po drodze wojsk Erathii i AvLee. Kiedy już znajdzie się na miejscu, poprowadzi prace nad budową nowego sanktuarium Graala."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 7,
+    "offset": 2003,
+    "length": 465,
+    "text": "Chociaż wielu ludzi dołączyło do naszych sił, aby wspomóc naszą wizję niezawisłości, już teraz siły Erathii i Avlee zbierają armię, aby nas powstrzymać. Nie możemy kontynuować naszej walki bez silnej bazy wypadowej. Faruk Welnin, burmistrz miasta Welnin przysłał posłańca. Oferuje nam wsparcie. Rozpoczęła się nasza walka o niepodległość - musimy przedrzeć się do Welnin i umieścić tam Graal. Jeżeli nam się to uda, Welnin stanie się podwaliną naszej niezawisłości."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 8,
+    "offset": 2533,
+    "length": 72,
+    "text": "\u0000\u0004\u0000\u0000\u0000GralF\u0000\u0000\u0000Aby odnieść zwycięstwo, musisz znaleźć Graala w ciągu trzec"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 9,
+    "offset": 2839,
+    "length": 16,
+    "text": "Grail Location N"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 10,
+    "offset": 2859,
+    "length": 47,
+    "text": "Graal znajduje się gdzieś na północ od Avalonu."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 11,
+    "offset": 2910,
+    "length": 19,
+    "text": "Grail Location East"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 12,
+    "offset": 2933,
+    "length": 56,
+    "text": "Graal znajduje się gdzieś na wschód od Góry Krasnoludów."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 13,
+    "offset": 2993,
+    "length": 19,
+    "text": "Grail Location West"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 14,
+    "offset": 3016,
+    "length": 59,
+    "text": "Graal znajduje się gdzieś na zachód od Wzgórza Krasnoludów."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 15,
+    "offset": 64541,
+    "length": 62,
+    "text": "Pułapka! Erathiańscy kusznicy otwierają ogień do twoich wojsk!"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 16,
+    "offset": 64715,
+    "length": 19,
+    "text": "Wzgórze Krasnoludów"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 17,
+    "offset": 64754,
+    "length": 86,
+    "text": "Na północ do Avalonu. Na wschód do Wzgórza Krasnoludów. Na zachód do Góry Krasnoludów."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 18,
+    "offset": 64860,
+    "length": 16,
+    "text": "Góra Krasnoludów"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 19,
+    "offset": 65120,
+    "length": 126,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001‚\u0000\u0000\u0000Spotykasz grupę krasnoludów i centaurów które popierają twoja walkę o niepodległość. Napotkane oddziały przyłączają"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 20,
+    "offset": 65353,
+    "length": 126,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001‚\u0000\u0000\u0000Spotykasz grupę krasnoludów i centaurów które popierają twoja walkę o niepodległość. Napotkane oddziały przyłączają"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 21,
+    "offset": 65684,
+    "length": 64,
+    "text": "Kilka elfów, przychylnych twej sprawie, dołącza do twojej armii."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 22,
+    "offset": 66899,
+    "length": 62,
+    "text": "Pułapka! Erathiańscy kusznicy otwierają ogień do twoich wojsk!"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 23,
+    "offset": 67074,
+    "length": 62,
+    "text": "Pułapka! Erathiańscy kusznicy otwierają ogień do twoich wojsk!"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 24,
+    "offset": 67384,
+    "length": 64,
+    "text": "Kilka elfów, przychylnych twej sprawie, dołącza do twojej armii."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 25,
+    "offset": 67535,
+    "length": 62,
+    "text": "Pułapka! Erathiańscy kusznicy otwierają ogień do twoich wojsk!"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 26,
+    "offset": 67708,
+    "length": 64,
+    "text": "Kilka elfów, przychylnych twej sprawie, dołącza do twojej armii."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 27,
+    "offset": 67891,
+    "length": 62,
+    "text": "Pułapka! Erathiańscy kusznicy otwierają ogień do twoich wojsk!"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 28,
+    "offset": 68064,
+    "length": 55,
+    "text": "Grupa pegazów chce wspomóc cię w poszukiwaniach Graala."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 29,
+    "offset": 68206,
+    "length": 54,
+    "text": "Grupa pegazów chce wspomóc cię w poszukiwaniach Grala."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 30,
+    "offset": 68349,
+    "length": 126,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001Ç\u0000\u0000\u0000Nagle Liczny oddział jednorożców z impetem wypada z lasu! W czasie gdy twoi dowódcy starają się szybko przygotować w"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 31,
+    "offset": 68917,
+    "length": 92,
+    "text": "Grupa jednorożców chce wspomóc cię w twej misji. Dostajesz od nich w prezencie Zbroję Cudów."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 32,
+    "offset": 75798,
+    "length": 64,
+    "text": "Kilka elfów, przychylnych twej sprawie, dołącza do twojej armii."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 33,
+    "offset": 76783,
+    "length": 220,
+    "text": "\u0000\u0000\u0000\u0000\u0000źď˙\u000f'(\u0000Ü\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000źď˙\u000f\u0003\u0000\u0000\u0000\u000b\u0000\u0000\u0000Sister text&\u0001\u0000\u0000Zwiadowcy donoszą, że twoja siostra jest na północy z olbrzymimi siłami bojowych jednorożców z AvLee. W przeciwieństwie do ciebie, wierzy ona, że sporne ziemie należą do Av"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 34,
+    "offset": 77179,
+    "length": 12,
+    "text": "Intro part 1"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 35,
+    "offset": 77195,
+    "length": 279,
+    "text": "Kiedy gromadzisz swoje siły, aby odnaleźć Graala, dochodzą cię słuchy, że siły Erathii i AvLee mobilizują się w celu przeszkodzenia ci w walce o niepodległość. Właściwie milicja z Erathii i AvLee już stoi na twojej drodze. Na twoje szczęście, brakuje im jednak dobrego przywódcy."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 36,
+    "offset": 77506,
+    "length": 255,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000Intro part 2\u0013\u0001\u0000\u0000Część miejscowych opowiada się za tobą, jednak większość nie zajmuje miejsca po żadnej ze stron. Musisz odnaleźć Graala, aby przekonać do siebie pozostałych niedowiarków. Bez niego, oddziały z AvLee i Erathii pokonają"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 37,
+    "offset": 78002,
+    "length": 72,
+    "text": "\u0000\r\u0000\u0000\u0000Niepodległośćb\u0000\u0000\u0000Potrzebujesz stolicy, wybuduj Kapitol w mieście We"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 38,
+    "offset": 127252,
+    "length": 26,
+    "text": "Odnajdujesz 3 sągi drewna."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 39,
+    "offset": 127344,
+    "length": 26,
+    "text": "Odnajdujesz 3 sągi drewna."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 40,
+    "offset": 129408,
+    "length": 26,
+    "text": "Odnajdujesz 3 sągi drewna."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 41,
+    "offset": 129488,
+    "length": 26,
+    "text": "Odnajdujesz 3 sągi drewna."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 42,
+    "offset": 129592,
+    "length": 26,
+    "text": "Odnajdujesz 3 sągi drewna."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 43,
+    "offset": 129753,
+    "length": 26,
+    "text": "Odnajdujesz 3 sągi drewna."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 44,
+    "offset": 129845,
+    "length": 27,
+    "text": "Odnajdujesz 5 sągów drewna."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 45,
+    "offset": 129998,
+    "length": 27,
+    "text": "Odnajdujesz 5 sągów drewna."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 46,
+    "offset": 131484,
+    "length": 26,
+    "text": "Odnajdujesz 3 sągi drewna."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 47,
+    "offset": 131564,
+    "length": 26,
+    "text": "Odnajdujesz 2 sągi drewna."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 48,
+    "offset": 133612,
+    "length": 26,
+    "text": "Odnajdujesz 2 sągi drewna."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 49,
+    "offset": 149773,
+    "length": 11,
+    "text": "Stolen Wood"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 50,
+    "offset": 149788,
+    "length": 70,
+    "text": "Przy tak małych dostawach drewna, złodzieje uwijają się jak w ukropie."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 51,
+    "offset": 149912,
+    "length": 20,
+    "text": "Stolen Wood and Gold"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 52,
+    "offset": 149936,
+    "length": 87,
+    "text": "Nocą twoje składy drewna zostały znowu napadnięte, ale tym razem zginęło również złoto!"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 53,
+    "offset": 150077,
+    "length": 13,
+    "text": "Wood shortage"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 54,
+    "offset": 150094,
+    "length": 104,
+    "text": "Musimy dalej budować Welnin, ale okoliczne tartaki są sabotowane, a co gorsza zaczęto nam kraść drewno!"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 55,
+    "offset": 150252,
+    "length": 30,
+    "text": "Stolen Wood and Gold repeating"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 56,
+    "offset": 150286,
+    "length": 91,
+    "text": "Pomimo naszych nieustających wysiłków, buntownicy znowu uciekają z naszym drewnem i złotem."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 57,
+    "offset": 150560,
+    "length": 72,
+    "text": "\u0000\r\u0000\u0000\u0000Droga do DomuI\u0000\u0000\u0000Ryland musi dotrzeć z Graalem do Welnin i wybudowa"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 58,
+    "offset": 200309,
+    "length": 15,
+    "text": "Bonus Resources"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 59,
+    "offset": 200328,
+    "length": 36,
+    "text": "AvLee przysyła zasoby na czas wojny."
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 60,
+    "offset": 208983,
+    "length": 75,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001N\u0000\u0000\u0000Zwiadowca twierdzi, że drzewce zamieszkujące okolicę są oddane na"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 61,
+    "offset": 209144,
+    "length": 75,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001T\u0000\u0000\u0000Zwiadowca twierdzi, że zbrojni zamieszkujące okoliczny las są odd"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 62,
+    "offset": 211530,
+    "length": 75,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001Q\u0000\u0000\u0000Zwiadowca twierdzi, że jednorożce zamieszkujące okolicę są oddane"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 63,
+    "offset": 213026,
+    "length": 75,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001z\u0000\u0000\u0000Zwiadowca twierdzi, że wiele krasnoludów z tego regionu ma dosyć"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 64,
+    "offset": 213979,
+    "length": 75,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001K\u0000\u0000\u0000Zwiadowca twierdzi, że elfy zamieszkujące okolicę są oddane nasze"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 65,
+    "offset": 214498,
+    "length": 75,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001K\u0000\u0000\u0000Zwiadowca twierdzi, że elfy zamieszkujące okolicę są oddane nasze"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 66,
+    "offset": 217041,
+    "length": 75,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001L\u0000\u0000\u0000Zwiadowca twierdzi, że mnisi zamieszkujący okolicę są oddani nasz"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 67,
+    "offset": 218027,
+    "length": 75,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001l\u0000\u0000\u0000Niewielki oddział zbrojnych wychodzi z pobliskiego lasu i chce do"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 68,
+    "offset": 218282,
+    "length": 75,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001€\u0000\u0000\u0000Niewielki oddział jednorożców staje na twojej drodze. Ich dowódca"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 69,
+    "offset": 223853,
+    "length": 75,
+    "text": "\u0000\u0000\u0000\u0000\u0000\u0001]\u0000\u0000\u0000Zbliża się niewielka grupa mnichów. Ich przywódca twierdzi, że ch"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 70,
+    "offset": 227029,
+    "length": 12,
+    "text": "Intro part 1"
+  },
+  {
+    "source": "h3abp_bm.lod:Secret1.h3c",
+    "id": 71,
+    "offset": 227045,
+    "length": 145,
+    "text": "Mieszkańcy Welnin oczekują na przybycie Graala. Wszystko jest w rękach Rylanda. Nie zatrzymuj się aby walczyć - przyjdzie na to czas. Powodzenia."
+  }
+]

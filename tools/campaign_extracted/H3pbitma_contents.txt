@@ -1,0 +1,85 @@
+Zawartość H3pbitma.lod:
+======================================================================
+AdvEvent.txt         rozmiar=     23694 skompresowany=TAK
+ArrayTxt.txt         rozmiar=      6925 skompresowany=TAK
+ArtEvent.txt         rozmiar=     26795 skompresowany=TAK
+Artraits.txt         rozmiar=     24569 skompresowany=TAK
+ArtSlots.txt         rozmiar=       254 skompresowany=TAK
+Ballist.txt          rozmiar=       307 skompresowany=TAK
+BldgNeut.txt         rozmiar=      2031 skompresowany=TAK
+BldgSpec.txt         rozmiar=      8074 skompresowany=TAK
+BoCsMag1.pcx         rozmiar=      4492 skompresowany=TAK
+BoCsMag3.pcx         rozmiar=      4492 skompresowany=TAK
+BoDAcad.pcx          rozmiar=      4492 skompresowany=TAK
+BoDBeh1.pcx          rozmiar=      4492 skompresowany=TAK
+BoDMage1.pcx         rozmiar=      4492 skompresowany=TAK
+BoNnecro.pcx         rozmiar=      4492 skompresowany=TAK
+BoNskelH.pcx         rozmiar=      4492 skompresowany=TAK
+BoNskelT.pcx         rozmiar=      4492 skompresowany=TAK
+BoRMag3.pcx          rozmiar=      4492 skompresowany=TAK
+Building.txt         rozmiar=      7696 skompresowany=TAK
+CampBttn.txt         rozmiar=      5960 skompresowany=TAK
+CampDiag.txt         rozmiar=     12745 skompresowany=TAK
+CampHigh.txt         rozmiar=       774 skompresowany=TAK
+CampText.txt         rozmiar=      2501 skompresowany=TAK
+CastInfo.txt         rozmiar=        84 skompresowany=NIE
+CmpMovie.txt         rozmiar=      1691 skompresowany=TAK
+CmpMusic.txt         rozmiar=       596 skompresowany=TAK
+Cranim.txt           rozmiar=     16231 skompresowany=TAK
+CrBanks.txt          rozmiar=      4741 skompresowany=TAK
+Credits.txt          rozmiar=      2439 skompresowany=TAK
+CrGen1.txt           rozmiar=      1243 skompresowany=TAK
+CrGen4.txt           rozmiar=        33 skompresowany=NIE
+CrGenerc.txt         rozmiar=       266 skompresowany=TAK
+Crtraits.txt         rozmiar=     18771 skompresowany=TAK
+Dwelling.txt         rozmiar=      9690 skompresowany=TAK
+Evil1.h3c            rozmiar=     85020 skompresowany=NIE [KAMPANIA]
+Evil2.h3c            rozmiar=     91707 skompresowany=NIE [KAMPANIA]
+Garrison.txt         rozmiar=        37 skompresowany=NIE
+Genrltxt.txt         rozmiar=     30968 skompresowany=TAK
+Good1.h3c            rozmiar=     63351 skompresowany=NIE [KAMPANIA]
+Good2.h3c            rozmiar=    127678 skompresowany=NIE [KAMPANIA]
+Good3.h3c            rozmiar=     61093 skompresowany=NIE [KAMPANIA]
+HallInfo.txt         rozmiar=       263 skompresowany=TAK
+Hctraits.txt         rozmiar=      3026 skompresowany=TAK
+Help.txt             rozmiar=     33926 skompresowany=TAK
+HeroBios.txt         rozmiar=     31463 skompresowany=TAK
+Heroes.txt           rozmiar=      2655 skompresowany=TAK
+HeroScrn.txt         rozmiar=      1408 skompresowany=TAK
+HeroSpec.txt         rozmiar=     23997 skompresowany=TAK
+Hotraits.txt         rozmiar=      8143 skompresowany=TAK
+Jktext.txt           rozmiar=       600 skompresowany=TAK
+LcDesc.txt           rozmiar=       125 skompresowany=TAK
+Mineevnt.txt         rozmiar=       969 skompresowany=TAK
+MineName.txt         rozmiar=       126 skompresowany=TAK
+Monolith.txt         rozmiar=       134 skompresowany=TAK
+Movement.txt         rozmiar=       515 skompresowany=TAK
+Neutral1.h3c         rozmiar=     72236 skompresowany=NIE [KAMPANIA]
+Objects.txt          rozmiar=    187564 skompresowany=TAK
+ObjNames.txt         rozmiar=      2895 skompresowany=TAK
+ObjTmplt.txt         rozmiar=       286 skompresowany=TAK
+Overview.txt         rozmiar=       507 skompresowany=TAK
+PlColors.txt         rozmiar=        88 skompresowany=TAK
+PriSkill.txt         rozmiar=        27 skompresowany=NIE
+Rand_trn.txt         rozmiar=    113746 skompresowany=TAK
+RandSign.txt         rozmiar=       527 skompresowany=TAK
+RandTvrn.txt         rozmiar=     18479 skompresowany=TAK
+Regions.txt          rozmiar=      5350 skompresowany=TAK
+ResTypes.txt         rozmiar=        76 skompresowany=NIE
+Rmg.txt              rozmiar=    129956 skompresowany=TAK
+Secret1.h3c          rozmiar=     49595 skompresowany=NIE [KAMPANIA]
+SeerHut.txt          rozmiar=     17893 skompresowany=TAK
+Serial.txt           rozmiar=        22 skompresowany=NIE
+SkillLev.txt         rozmiar=        53 skompresowany=TAK
+SpTraits.txt         rozmiar=     53640 skompresowany=TAK
+SsTraits.txt         rozmiar=      9949 skompresowany=TAK
+TCommand.txt         rozmiar=       770 skompresowany=TAK
+TentColr.txt         rozmiar=        87 skompresowany=TAK
+TerrName.txt         rozmiar=        83 skompresowany=TAK
+TownName.txt         rozmiar=      1503 skompresowany=TAK
+TownType.txt         rozmiar=        89 skompresowany=NIE
+TurnDur.txt          rozmiar=       111 skompresowany=TAK
+TvrnInfo.txt         rozmiar=       221 skompresowany=TAK
+VcDesc.txt           rozmiar=       334 skompresowany=TAK
+Walls.txt            rozmiar=      2785 skompresowany=TAK
+XtraInfo.txt         rozmiar=      1041 skompresowany=TAK

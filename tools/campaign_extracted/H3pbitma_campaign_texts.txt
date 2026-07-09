@@ -1,0 +1,1216 @@
+Teksty kampanii z H3pbitma.lod
+======================================================================
+
+
+######################################################################
+# Źródło: H3pbitma.lod:Evil1.h3c
+######################################################################
+
+--- [0] offset=5 ---
+Podziemia i diabły
+
+--- [1] offset=27 ---
+Nigdy w historii Erathii nie zdarzyło się, by stolica wpadła w ręce wroga. Dziś rozpoczynamy kampanię, która na zawsze to zmieni. Nigdy więcej nie pozwolimy, by Erathia narzucała nam religię i styl życia. Mamy przewagę - element zaskoczenia. Wkrótce zwycięstwo również będzie nasze.
+
+--- [2] offset=337 ---
+Zanim Erathia wezwie na pomoc elfy, uderzymy w samo serce  ich krainy - AvLee - i zaatakujemy królową złotych smoków. Gdy ich najsilniejszy sprzymierzeniec zostanie wyeliminowany, elfy nie będą w stanie pomóc Erathii.
+
+--- [3] offset=561 ---
+Południowo-zachodnie wybrzeże Erathii zamieszkane jest przez dużą populację elfów. Zielone i złote smoki, które również upodobały sobie ten region, znacznie powiększają ich potęgę militarną. Zanim podbijemy ten obszar i otworzymy sobie drogę do Steadwick, musimy wybić do nogi wszystkie smoki. Nasi sprzymierzeńcy, wojownicy Kreegan z królestwa Eeofol poprosili o zaszczyt wykonania tej misji. Kreeganie to dobrzy żołnierze, ta rzeź z pewnością sprawi im radość...
+
+--- [4] offset=1108 ---
+Nasze siły pokonały większą część drogi do stolicy Erathii podziemnymi tunelami. Aby zachować element zaskoczenia, musisz atakować wszystkie napotkane osady i jednostki. Rozległa sieć podziemnych tuneli pomoże ci w osiągięciu cel.
+
+--- [5] offset=1345 ---
+Raporty wywiadu informują o flocie okrętów wojennych z Enroth, które przybiły do południowego wybrzeża Erathii. Nie wiemy, kto nimi dowodzi, ani ile ich jest. Z pewnych źródeł wiemy jednak, że flotą z pewnością nie dowodzi król Roland Ironfist.  Nasze plany nie ulegają więc zmianom. Zaczynamy ostatnią fazę podziemnej inwazji w celu umocnienia naszych pozycji wzdłuż północno-zachodniego wybrzeża. W razie nagłych problemów możemy szybko przerzucić posiłki z Nighon. Ostatnie tunele są już gotowe, będziesz więc mieć taktyczną przewagę.
+
+--- [6] offset=1955 ---
+Zdobądź stolicę Erathii - Steadwick. To zadanie nie będzie łatwe gdyż jest ona doskonale broniona. Co gorsza, nadciągają wojska Królowej Katarzyny. Musimy zdobyć Steadwick zanim przybędzie odsiecz!
+
+--- [7] offset=2159 ---
+Katarzyna Ironfist otrzymała pomoc z Brakady i AvLee. Wie, że zbliżamy się do Steadwick, musimy więc zająć miasto przed jej przybyciem. Kiedy już podbijemy stolicę Erathii, nawet sama Katarzyna nie wyrwie jej z naszych rąk.
+
+--- [8] offset=2660 ---
+Diabelski plan
+
+--- [9] offset=2678 ---
+Aby zwyciężyć, musisz odszukać i zabić Królową Złotych Smoków. Twoi bohaterowie nie mogą przekroczyć 12 poziomu doświadczenia, ale 8 najsilniejszych z nich stanie u twego boku podczas finałowej bitwy tej kampanii.
+
+--- [10] offset=3108 ---
+Na południowym zachodzie żyje mędrzec, który podobno wie jak dostać się do Smoczej Doliny.
+
+--- [11] offset=98781 ---
+Twoi wywiadowcy informują, że pobliskie tereny są bogate w zasoby zaś na południu mieszka szaman który doskonale zna okoliczne tereny i być może będzie chciał ci pomóc.
+
+--- [12] offset=116230 ---
+Nasze sprawy mają się dobrze. Udało się nam otworzyć wulkan i zbudować fort w odludnym lesie rosnącym zaraz przy granicy Erathii. Prace nad tunelem prowadzącym do stolicy wroga posuwają się szybko. Twoim obecnym zadaniem jest zaatakowanie sprzymierzeńców Erathii - Elfów z AvLee.
+
+--- [13] offset=116563 ---
+Intro Part 2
+
+--- [14] offset=116579 ---
+Królowa Złotych Smoków to potężny sprzymierzeniec AvLee. Musisz odnaleźć jej legowisko i ją zniszczyć. To znacznie osłabi AvLee, a dla nas droga do Erathii stanie otworem. Odejdź teraz i powróć w chwale!
+
+--- [15] offset=116981 ---
+Aby wygrać, musisz zdobyć wszystkie wrogie miasta i pokonać wszystkie armie wroga. Twoi bohaterowie będa mogli osiągnąć co najwyżej 12 poziom doświadczenia, ale 8 najsilniejszych z nich stanie u twego boku podczas finałowej bitwy tej kampanii.
+
+--- [16] offset=220579 ---
+Niespodziewanie potężny głos z niebios ogłasza: "Niewierni! Sprofanowaliście święte miejsce i zostaniecie ukarani!"  Ogarnia cię nieprzyjemne poczucie, że stawianie chciwości przed celem twojej misji nie było dobrym pomysłem.
+
+--- [17] offset=242656 ---
+Day 1 Intro Part 1
+
+--- [18] offset=242678 ---
+Gdy ruszyliśmy wgłąb tuneli, odkryliśmy kolonię, która została rzekomo dawno temu zniszczona. Jeżeli udałoby sie nam 'przekonać' kolonię do współpracy, mogłaby dostarczać dodatkowe wojska do zabezpieczenia miast znajdujących się na powierzchni.
+
+--- [19] offset=242976 ---
+Day 1 Intro Part 2
+
+--- [20] offset=242998 ---
+Mamy agenta, który zamieszkuje położoną niedaleko wysepkę i szpieguje dla nas okoliczne miasta.  Odnajdź go, a dostarczy ci  wielu ważnych informacji.
+
+--- [21] offset=243211 ---
+Zbliża się jeden z twoich doradców.  "Otrzymaliśmy raport mówiący, że okręty z Enroth zakotwiczyły u południowych wybrzeży Erathii.  W chwili obecnej nie wiemy kto dowodzi flotą, jednak mamy wiadomość z pewnego źródła, że nie może to być Roland Ironfist."
+
+--- [22] offset=243528 ---
+Zbliża się jeden z twoich doradców.  "Wieści nie są pomyślne. Siły enrothiańskie dowodzone są przez Katarzynę Ironfist, córkę niedawno zmarłego króla Erathii.  Katarzyna dowodzi znacznymi siłami i zdążyła się już umocnić wzdłuż wybrzeża. Jeżeli się nie pośpieszymy, królowa może osiągnąć Steadwick przed nami."
+
+--- [23] offset=244026 ---
+Upadek Steadwick
+
+--- [24] offset=244046 ---
+Aby wygrać, musisz w ciągu 3 miesięcy zdobyć miasto Steadwick.
+
+--- [25] offset=244124 ---
+Gen. Kendal
+
+--- [26] offset=244145 ---
+Gen. Kendal
+
+--- [27] offset=445947 ---
+Gen. Kendal
+
+--- [28] offset=463274 ---
+Jak na razie radzisz sobie doskonale.  Udało ci się spustoszyć wschodnią Erathię i znajdujesz się w bliskiej odległości od jej stolicy - Steadwick. Musisz ją szybko podbić!
+
+--- [29] offset=463511 ---
+Brakada i AvLee wysłały posiłki Królowej Katarzynie, która zbliża się ze znaczną armią z południa.  Musimy zdobyć stolicę zanim nadejdzie!
+
+--- [30] offset=463711 ---
+Otrzymujesz właśnie raport dotyczący postępów wojsk Królowej Katarzyny.  Siły z Nighonu i Eofolu starają sie opóźnić przemarsz jej wojsk, ale nie będą w stanie ich zatrzymać na dłużej niż dwa, trzy miesiące.
+
+--- [31] offset=463981 ---
+Otrzymujesz raport z południowego frontu.  Siły Królowej zostały zatrzymane dając ci jakieś dodatkowe dwa miesiące na zdobycie stolicy.  Ponieślismy jednak znaczące straty, więc nie pozwól, aby nasze poświęcenie poszło na marne.
+
+--- [32] offset=464273 ---
+Otrzymujesz raport z południowego frontu. Nasze siły ciągle starają się powstrzymać armię wroga, jednak Królowa stale posuwa się na północ.  Masz w najlepszym razie jeszcze trzy, cztery tygodnie zanim Katarzyna osiągnie Steadwick.
+
+--- [33] offset=464568 ---
+Wojska Katarzyny kontynuują swój pochód, jej armia jest o dwa tygodnie drogi stąd.  Jeżeli się nie pospieszysz, nie uda się nam przygotować stolicy do obrony.
+
+--- [34] offset=464792 ---
+Wojska Katarzyny są o siedem dni drogi stąd!  Jeżeli się nie pospieszysz, dojdą do Steadwick przed tobą i wszystko będzie stracone!
+
+--- [35] offset=464987 ---
+Tego ranka potężna armia pod dowództwem Królowej Katarzyny Ironfist dotarła do Steadwick.  Nie mamy wyboru, musimy się wycofać.  Zawiodłeś nas... całkowicie
+
+
+######################################################################
+# Źródło: H3pbitma.lod:Evil2.h3c
+######################################################################
+
+--- [0] offset=5 ---
+Niech żyje król
+
+--- [1] offset=24 ---
+Wojna w Erathii to najlepsza rzecz, jaka mogła spotkać ludność krainy Deyja.  Wojna na taką skalę to niekończące się żniwa dla naszej armii nieumarłych. Dziś świętujemy, jutro podbijemy Erathię.
+
+--- [2] offset=249 ---
+Król Gryphonheart, człowiek, który wygnał nas z Erathii, nie żyje. Inwazja Nighonu i Eeofolu ofiarowała nam dar śmierci. Nareszcie możemy zbudować własną armię i sami najechać Erathię. By zapewnić sobie sukces potrzebujemy tylko dobrego taktyka. Musisz więc odnaleźć grobowiec króla Gryphonhearta.
+
+--- [3] offset=553 ---
+Naszym celem było zabicie człowieka, który wygnał nas z Erathii. Jednak inwazja wojsk Nighonu i Eofolu była dla nas niespodziewanym prezentem. Pola Erathii usiane są ciałami jej obrońców. Dla nekromantów to okres zbiorów, okres wojny. Królowa Katarzyna jest godnym przeciwnikiem. Aby pokonać pozostałą część wojsk Erathii, potrzebujemy kogoś, kto dorówna jej zdolnościami taktycznymi. Mamy plan... diaboliczny plan. Wykorzystując fakt, że Katarzyna będzie zajęta wojną z królestwem Nighonu, prześlizgniesz się z małym oddziałem do miejsca, gdzie pochowany został król Gryphonheart. Uważaj jednak. Teren ten zajęty jest przez rozproszone, ale dość silne oddziały armii erathiańskiej. Kiedy już odnajdziesz grób króla, wskrześ go i spraw, by stanął na czele naszych wojsk. Jeśli król Gryphonheart będzie dowodził naszą armią, szybko podbijemy jego królestwo i zmienimy je w krainę zmarłych.
+
+--- [4] offset=1448 ---
+Podczas prac nad wskrzeszeniem Gryphonhearta, naszemu królowi Vilmarowi przydarzył się niefortunny wypadek. Król Gryphonheart przejął pełną władzę nad armią... a także całym królestwem. Jego umiejętność kontrolowania umarłych przerasta wszystko co do tej pory widzieliśmy. To dobrze rokuje planom naszej przyszłej inwazji. Jednak nasi pozostali lordowie bacznie przypatrują się nowemu królowi, szukając oznak jego słabości.
+
+--- [5] offset=1950 ---
+Przy granicy Erathii znaleźliśmy wspaniałą bazę wypadową dla pozyskiwania stworzeń do naszej armii bez zwracania na siebie uwagi przeciwnika. Zbuduj potężną armię - ale śpiesz się! Potrzebujemy tych oddziałów jak najszybciej!
+
+--- [6] offset=2183 ---
+Zanim rozpoczniemy inwazję na szeroką skalę, musimy zdobyć
+wystarczającą ilość wojsk. Ludność Erathii będzie dobrym materiałem na rekrutów. Dokonaj szybkiego wypadu na okoliczne miasta. Potrzebne nam posiłki uzyskasz wskrzeszając poległych.
+
+--- [7] offset=2499 ---
+Zbuntowany Rycerz Śmierci nie zamierza uczestniczyć w naszej chwalebnej inwazji na Erathię. Uważa, że nie biorąc udziału w walce ocali swą ziemię przed kontratakiem Erathian. Czas nauczyć go posłuszeństwa.
+
+--- [8] offset=2711 ---
+Rycerz Śmierci imieniem Mot odmawia poddania się rozkazom króla Gryphonhearta. Musi on zostać przykładnie ukarany, aby wszyscy ujrzeli, że podobne akty zdrady nie będą tolerowane. Mot szczelnie otoczył się swoimi wojskami. Pokonaj je i przejmij nad nimi kontrolę. Kiedy już zabijesz Mota, wskrześ go, aby zasilił szeregi naszej armii.
+
+--- [9] offset=3128 ---
+Nadszedł czas. Król-Lisz Gryphonheart zdecydował, że atak rozpocznie się właśnie teraz. Z całej Deyji nadciągną wojska, które zaleją Erathię. Cel naszego ataku został wybrany przez samego króla. Przysięgasz, że go nie zawiedziesz.
+
+--- [10] offset=3365 ---
+Na naszej drodze stoi armia Erathii. Nadszedł czas decydującej bitwy. Król Gryphonheart szkolił generałów armii erathiańskiej i zna ich taktykę. Morale nie gra roli u nieumarłych. Gdy wzmocnimy nasze oddziały ciałami rycerzy wroga, morale naszych przeciwników podupadnie. Wtedy zalejemy ich naszymi wojskami i zadamy decydujący cios. Król Gryphonheart wkrótce ponownie zasiądzie na tronie Erathii.
+
+--- [11] offset=3833 ---
+Grób Króla
+
+--- [12] offset=3847 ---
+Masz trzy miesiące na dostarczenie Ducha Opresji do Stonecastle. Szukaj mędrca - wypełnienie jego misji pozwoli ci przenieść nagrodę do następnego scenariusza.
+
+--- [13] offset=43814 ---
+Intro part 1
+
+--- [14] offset=43830 ---
+Szpiedzy donieśli, że grób króla Gryphonhearta znajduje się w Stonecastle, niedaleko północnej granicy Erathii. Te obszary ominęły zawieruchy wojny z Nighonem i Eofolem. Szybko przeszukaj teren, odnajdź zwłoki króla, a wtedy my będziemy mogli tchnąć w nie życie.
+
+--- [15] offset=44146 ---
+Intro part 2
+
+--- [16] offset=44162 ---
+Jednym z przedmiotów potrzebnych do rytuału ożywienia Króla jest Duch Opresji. Musisz odnaleźć ten artefakt i zanieść go do Stonecastle. Trzeba tego dokonać bardzo szybko - jeżeli duch króla opuści ciało wszystko będzie stracone.
+
+--- [17] offset=44579 ---
+Sezon zbiorów
+
+--- [18] offset=44596 ---
+Aby wygrać, musisz zebrać 2500 szkieletów we wszystkich twoich armiach. Niektóre posterunki graniczne można pokonać tylko wtedy, gdy bohater posiada artefakt z poprzedniego scenariusza. Artefakt ukryty poza granicą będzie dostępny również w następnym scenariuszu.
+
+--- [19] offset=118153 ---
+Intro part 1
+
+--- [20] offset=118169 ---
+Aby wykorzystać element zaskoczenia, musisz w przeciągu miesiąca zaatakować Erathię. Niestety nasze siły nie są wystarczająco mocne, aby zaatakować na całym froncie. Potrzebujemy twojej pomocy przy zwerbowaniu żołnierzy wzdłuż granicy. Zebranie wystarczającej ilości nieumarłych pozwoli nam wygrać.
+
+--- [21] offset=118521 ---
+Intro part 2
+
+--- [22] offset=118537 ---
+Tak jak poprzednio musisz działać bardzo szybko. Ponieważ podstawowym warunkiem zaskoczenia jest szybkość ataku, musisz zdążyć z natarciem w przeciągu trzech miesięcy. W tym czasie musisz zebrać armię przynajmniej 2500 szkieletów. Jeżeli nas zawiedziesz, nie będziemy mieć żadnej szansy.
+
+--- [23] offset=118878 ---
+Warning 3 weeks left
+
+--- [24] offset=118902 ---
+Otrzymujesz list od swoich zwierzchników. "Postępy jakie czynisz są zadowalające, ale masz jeszcze tylko trzy tygodnie na wykonanie zadania."
+
+--- [25] offset=119097 ---
+Warning 2 weeks left
+
+--- [26] offset=119121 ---
+Otrzymujesz list od swoich zwierzchników. "Cieszymy się z twoich postępów. Pamiętaj jednak, że potrzebujemy przynajmniej 2500 szkieletów, a zostały tylko dwa tygodnie do rozpoczęcia natarcia."
+
+--- [27] offset=119367 ---
+Warning 1 week left
+
+--- [28] offset=119390 ---
+Otrzymujesz list od swoich zwierzchników. "Za tydzień od dzisiaj zaatakujemy Erathię. Twoja armia 2500 szkieletów jest kluczem do sukcesu. Mamy nadzieję, że zdajesz sobie sprawę z tego, że porażka nie wchodzi rachubę."
+
+--- [29] offset=119662 ---
+News of Sandro
+
+--- [30] offset=119680 ---
+Podchodzi jeden z twoich doradców. "Właśnie dowiedzieliśmy się, że w okolicy uwięziony jest Sandro wraz ze swoją armią. Jeżeli uda ci się go odnaleźć i oswobodzić, będzie dużym wzmocnieniem dla naszych sił."
+
+--- [31] offset=120075 ---
+Należna kara
+
+--- [32] offset=120091 ---
+Musisz pokonać Mota - Rycerza Śmierci. Niektórzy strażnicy przepuszczą cię tylko jeżeli będziesz posiadać artefakt zdobyty podczas poprzedniej misji. Artefakt ukryty po drugiej stronie granicy zostanie przeniesiony do następnej misji.
+
+--- [33] offset=120548 ---
+Whirlpool hint
+
+--- [34] offset=120566 ---
+Wir jest bramą do Świata Zmarłych, ale Kluczem jest Naszyjnik Przyzwania.
+
+--- [35] offset=226851 ---
+Intro part 1
+
+--- [36] offset=226867 ---
+Otrzymujesz list od Króla Gryphonhearta. "Dowódco, jeden z moich generałów, Mot, nie wykonuje moich rozkazów, twierdząc że nie powinniśmy atakować Erathii. Nie potrzebujemy go do realizacji naszych planów".
+
+--- [37] offset=227127 ---
+Intro part 2
+
+--- [38] offset=227143 ---
+"Potrzebujemy jednak jego armii. Nie mogę pozwolić na niesubordynację. Twoim zadaniem jest znalezienie Mota i zniszczenie go. Gdy tego dokonasz, wskrzesimy go i poddamy naszym rozkazom. Wykonaj to zadanie, a zostaniesz moim nowym generałem."
+
+--- [39] offset=227439 ---
+Intro part 3
+
+--- [40] offset=227455 ---
+Sam widok nieumarłego króla powoduje, że ciarki chodzą ci po plecach. Musisz jednak wykonać zadanie. Rozumiesz, że nie możesz pozwolić sobie na luksus porażki.
+
+--- [41] offset=227802 ---
+Dzień i noc
+
+--- [42] offset=227817 ---
+Aby zwyciężyć, musisz zdobyć wszystkie miasta i zamki wroga, oraz pokonać wszystkich wrogich bohaterów. Niektóre posterunki graniczne można przejść tylko wtedy, gdy bohater posiada artefakt z poprzedniego scenariusza.
+
+--- [43] offset=446988 ---
+Oto Gladius Tytanów który, jak twierdził mędrzec, jest ci podobno przeznaczony. Czy chcesz posiąść go na swoją własność?
+
+--- [44] offset=447159 ---
+Oto Gladius Tytanów który, jak twierdził mędrzec, jest ci podobno przeznaczony. Czy chcesz posiąść go na swoją własność?
+
+--- [45] offset=458250 ---
+Intro part 1
+
+--- [46] offset=458266 ---
+Otrzymujesz bezpośrednie rozkazy od Króla Gryphonhearta. Atak masz rozpocząć z trzech twierdz przy granicy z Erathią. Na początku opór powinien być słaby, ale musisz szybko zabezpieczyć teren, zanim wróg otrzyma wsparcie.
+
+--- [47] offset=458541 ---
+Intro part 2
+
+--- [48] offset=458557 ---
+Oczywistym jest iż Król Gryphonheart chce odzyskać tron Erathii, ale tym razem zamierza zdobyć go siłą. Ruszaj, nadszedł czas.
+
+
+######################################################################
+# Źródło: H3pbitma.lod:Good1.h3c
+######################################################################
+
+--- [0] offset=5 ---
+Niech żyje królowa
+
+--- [1] offset=27 ---
+Lądowanie potwierdziło wszystkie plotki, a zarazem nasze najgorsze obawy. Po śmierci mojego ojca chciwi sąsiedzi podzielili między siebie ziemie Erathii.
+
+--- [2] offset=208 ---
+Królowa Katarzyna udała się do Brakady, do króla Gavina Magnusa, by prosić go o wsparcie. Pozostali dowódcy operują w różnych częściach kraju. Załóż bazę, zbierz miejscowe siły, określ zasięg nighońskich sił okupacyjnych i znajdź trasę, którą dociera do nich wsparcie.
+
+--- [3] offset=483 ---
+Moje wojska rozbiły obóz u podnóża zniszczonego zamku. Informacje które posiadamy są niepewne i bardzo skromne. Okoliczni chłopi pouciekali ze swoich wiosek, a większość informacji uzyskanych od odnalezionych niedobitków zamkowego garnizonu przeczy sama sobie. Odnalezione przeze mnie dowody wskazywałyby na inwazję sił Nighonu. Zbierz ilu się da ludzi i postaraj się szybko ich wyszkolić. Zniszcz wszystkie napotkane siły wroga. Spodziewaj się najgorszego. Musimy założyć, że nasze królestwo znajduje się w stanie wojny.
+
+--- [4] offset=1089 ---
+Raporty mówiące o Aniołach w pobliżu miasta Fair Feather zasługują na dokładne zbadanie. Jeśli pogłoski są prawdziwe, musimy zapewnić bezpieczeństwo miastu, a może nawet przekonać Anioły, by stanęły po naszej stronie.
+
+--- [5] offset=1313 ---
+Przemieszczając się w kierunku stolicy napotkaliśmy grupę wieśniaków mówiących o Fair Feather, mieście leżącym na północy. Pomimo przewagi wroga oparło się podobno inwazji sił Nighańskich. Pogłoski te nie są sprawdzone, ale wieśniacy twierdzą, że 'anioły' roztoczyły opiekę nad miastem.  Anioły były już wcześniej widywane w Erathii. Podczas najazdu Kreegan niektóre raporty mówiły o skrzydlatych stworzeniach, które w pojedynkę niszczyły duże oddziały sił wroga. No cóż, albo anioły powróciły albo... nigdy nas nie opuściły. Nie wiemy jak długo Fair Feather będzie w stanie opierać się naszym wrogom, ale jeżeli miasto upadnie, stracimy potencjalnego sprzymierzeńca...
+
+--- [6] offset=2067 ---
+Klify Gryfów, miejsce corocznych spotkań godowych niemal wszystkich erathiańskich gryfów, znalazły się obecnie pod kontrolą połączonych sił Nighonu i Kreegan. Wiele lat temu gryfy pomogły przy powstaniu Erathii, teraz zaś powinny zostać podstawą sił, które ją wyzwolą.
+
+--- [7] offset=2342 ---
+Każdego roku gryfy z całego świata migrują na Klify Gryfów. Armia króla Gryphonhearta jako pierwsza ujarzmiła te potwory i wytrenowała je do udziału w bitwach. Dowodząc tymi wielkimi bestiami, król Gryphonheart połączył rozrzucone kolonie ludzkie i stworzył królestwo Erathii. Król wiedział, że gryfy są kluczem do wygrania każdej bitwy. Są nam niezbędne, aby zabezpieczyć okolice Steadwick.
+
+--- [8] offset=2803 ---
+Powrót do Domu
+
+--- [9] offset=2821 ---
+Aby wygrać, musisz zlokalizować i zająć miasteczko Terraneus. W tym scenariuszu twoi bohaterowie będą mogli osiągnąć najwyżej szósty poziom doświadczenia ale czterech najlepszych z nich przejdzie z tobą do następnej misji tej kampanii.
+
+--- [10] offset=3280 ---
+Imprisoned Erathian Heroes
+
+--- [11] offset=3310 ---
+Przed inwazją Nighonu region ten był chroniony przez kilku najświetniejszych bohaterów Erathii. Teraz nikt niestety nie wie, gdzie się oni podziali.
+
+--- [12] offset=3462 ---
+Is it true Queen Catherine has returned to Erathia?
+
+--- [13] offset=3517 ---
+Czy to prawda, że Królowa Katarzyna powróciła do Erathii?
+
+--- [14] offset=3578 ---
+The Knight Gier
+
+--- [15] offset=3597 ---
+Doszły mnie słuchy, że rycerz Gier jest więziony gdzieś na północnym zachodzie od Mirham.
+
+--- [16] offset=3704 ---
+W wirach oceanu unoszą się szczątki wielu statków. Niektórzy kapitanowie, którym udało się przetrwać piekło wirów, uważają się za wystarczająco silnych, aby pokonać je znowu. Jednak załoga może być przeciwnego zdania.
+
+--- [17] offset=3925 ---
+Thanks for the Rescue
+
+--- [18] offset=3950 ---
+Dziękujemy za uratowanie naszego miasta!
+
+--- [19] offset=3994 ---
+Nighon occupation
+
+--- [20] offset=4015 ---
+Wiele okolicznych miast jest ciągle pod okupacją Nighonu.
+
+--- [21] offset=4076 ---
+Contact with Steadwick
+
+--- [22] offset=4102 ---
+Znasz może jakieś wieści ze Steadwick?
+
+--- [23] offset=4144 ---
+Has Steadwick fallen?
+
+--- [24] offset=4169 ---
+Steadwick zostało zdobyte? Nasza stolica jest we władaniu Nighonu?
+
+--- [25] offset=4239 ---
+How much of Erathia has fallen?
+
+--- [26] offset=4274 ---
+Czy to prawda, że ponad połowa Erathii została podbita przez Nighon, Krewlod i Tatalię?
+
+--- [27] offset=4365 ---
+Eeofol and Nighon are working together
+
+--- [28] offset=4407 ---
+Widzieliśmy mieszkańców podziemi i diabły. Eeofol musi być w sojuszu z Nighonem.
+
+--- [29] offset=4491 ---
+King Gryphonheart: murdered
+
+--- [30] offset=4522 ---
+Król Gryphonheart nie zmarł z przyczyn naturalnych.
+
+--- [31] offset=4577 ---
+King Gryphonheart: poisoned
+
+--- [32] offset=4608 ---
+Słyszałem, że król Gryphonheart zmarł z powodu trucizny dodanej do posiłku.
+
+--- [33] offset=4687 ---
+Griffin Tower north of Caryatid
+
+--- [34] offset=4722 ---
+Na północ od Caryatid znajduje się Wieża Gryfów. Była ona jednym z pierwszych celów inwazji.
+
+--- [35] offset=4818 ---
+Guardhouse north of Caryatid
+
+--- [36] offset=4850 ---
+Mam kuzyna, który szkolił sie na pikiniera w strażnicy na północ od Caryatid. Modlę się,żeby przeżył inwazję.
+
+--- [37] offset=4963 ---
+Archer's Tower northeast of Plinth
+
+--- [38] offset=5001 ---
+Doszły mnie słuchy, że wieża łucznicza na północnym wschodzie od Plinth wpadła w ręce hordy troglodytów.
+
+--- [39] offset=5109 ---
+Monastery northwest of Mirham
+
+--- [40] offset=5142 ---
+Chociaż nie mamy żadnych wieści z klasztoru leżącego na północnym zachodzie od Mirham, wiadomo, że nieprzyjaciel wysłał tam swoje posiłki.
+
+--- [41] offset=5284 ---
+Barracks southwest of Trailia
+
+--- [42] offset=5317 ---
+Najlepsi zbrojni Erathii trenują w koszarach leżących na południowym zachodzie od Trailii.
+
+--- [43] offset=5411 ---
+Hut of the Magi
+
+--- [44] offset=5430 ---
+Na wschód od Mirham, w dużej chacie mieszka magik. Jeden z lokalnych bohaterów kazał mi zwracać baczną uwagę na ruchy wojsk po zachodniej stronie gór Brakady.
+
+--- [45] offset=5592 ---
+Bracada Mountain Range
+
+--- [46] offset=5618 ---
+Skoro pochodzisz z Enroth, to wiesz zapewne, że zachodni łańcuch górski jest granicą oddzielajacą nasze tereny od Brakady.
+
+--- [47] offset=5744 ---
+Invasion: They came without warning
+
+--- [48] offset=5783 ---
+Nie było żadnego ostrzeżenia. Nagle, nocą, okazało się, że jesteśmy otoczeni przez mieszkańców podziemi i diabły. Niektórzy wierzą, że wojska te dostały się tu poprzez teleportację.
+
+--- [49] offset=5968 ---
+Invasion: Where did they come from
+
+--- [50] offset=6006 ---
+Nighon znajduje się po drugiej stronie oceanu, ale nikt nie widział żadnych łodzi.
+
+--- [51] offset=6092 ---
+Creature Generator: Pikemen_Mirham
+
+--- [52] offset=6130 ---
+W zachodniej części Mirham znajdują się koszary gdzie nowi rekruci erathiańskiej armii odbywają pierwsze szkolenia.
+
+--- [53] offset=117182 ---
+Plinth: południowy zachód. Mirham: północny wschód.
+
+--- [54] offset=117253 ---
+Trailia: północny wschód. Mirham: południowy zachód.
+
+--- [55] offset=117325 ---
+Mirham: wschód. Cariatyd: wzdłuż gór na wschód, później na południe.
+
+--- [56] offset=121980 ---
+Udaje ci się pokonac troglodytów. Broniący wieży pikinierzy chętnie staną po twojej stronie.
+
+--- [57] offset=122246 ---
+Computer Timber Supplies
+
+--- [58] offset=122274 ---
+Z powierzchni przybywa karawana z twoimi cotygodniowymi dostawami drewna.
+
+--- [59] offset=127268 ---
+Story Background, pt1
+
+--- [60] offset=127293 ---
+Wiadomość od Katarzyny Ironfist, Królowej Enroth: "Generale, nasz pierwszy desant zdobył dowody wskazujące na inwazję z Nighonu."
+
+--- [61] offset=127476 ---
+Story Background, pt2
+
+--- [62] offset=127501 ---
+"Przez ostatnie trzydzieści dni ci ludzie znajdowali się pod okupacją wojsk z Nighonu. Przypuszczamy, że sąsiednie miasta, Plinth, Mirham i Trailia są również pod okupacją Nighonu lub Eeofol."
+
+--- [63] offset=127747 ---
+Story Background, pt3
+
+--- [64] offset=127772 ---
+"Nasi generałowie wysyłają swoje wojska w głąb tego regionu, aby ograniczyć ruchy wroga na naszym terytorium. W chwili obecnej twój cel jest prosty. Załóż bazę, zbierz siły lokalnej milicji, ogranicz zasięg okupacji Nighonu i znajdź drogi ich inwazji."
+
+--- [65] offset=128078 ---
+Story Background, pt4
+
+--- [66] offset=128103 ---
+"Jeśli uda ci się opanować główną bazę wroga, będziemy w stanie szybko wyeliminować pozostałe oddziały. Powodzenia."
+
+--- [67] offset=128273 ---
+Recon: Mirham
+
+--- [68] offset=128290 ---
+Twój zwiadowca powracający z Mirham oznajmia: "Mirham jest pod okupacją oddziałów z Eeofolu i Nighonu."
+
+--- [69] offset=128447 ---
+Recon: Plinth
+
+--- [70] offset=128464 ---
+Jeden z twoich pomocników zbliża się i wręcza ci zwój papieru, wspominając, że zwiadowca, który właśnie go dostarczył, jest w ciężkim stanie z powodu licznych ran. Rozwijasz zwój i czytasz: "Plinth jest okupowany przez oddziały Eefolu."
+
+--- [71] offset=128754 ---
+Recon: Trailia
+
+--- [72] offset=128772 ---
+Pojawia się zwiadowca. Na jego ciele widać wiele ran od strzał i szponów harpii. Żołnierz klęka przed tobą i mówi: "Genarale, Trailia wpadła w brutalne ręce potworów z Nighonu."
+
+--- [73] offset=129147 ---
+Zajmij wszystkie miasta wroga i pokonaj jego armie. Twoi bohaterowie będą mogli osiągnąć najwyżej dwunasty poziom doświadczenia, ale ośmiu najsilniejszych przejdzie do końcowego scenariusza tej kampanii.
+
+--- [74] offset=160259 ---
+Fair Feather
+
+--- [75] offset=170315 ---
+Intro part 1
+
+--- [76] offset=170331 ---
+Musimy dotrzeć do Fair Feather przed siłami Nighonu i Eeofolu. Jeśli zaproponujemy im nasze wsparcie, powinniśmy zdołać przekonać Anioły, aby pomogły nam w walce o Erathię. Musimy zabezpieczyć okoliczne tereny, zanim ruszymy dalej na Steadwick.
+
+--- [77] offset=170637 ---
+Zwiadowcy donoszą, że w okolicy znajduje się kilka wejść do jaskiń. Możliwe, że pod ziemią znajdziemy fortyfikacje Nighonu i Eeofolu.
+
+--- [78] offset=170958 ---
+Gryfie Klify
+
+--- [79] offset=170974 ---
+Aby wygrać, musisz zlokalizować i oflagować wszystkie 7 wież gryfów.
+
+--- [80] offset=171262 ---
+Doszły mnie słuchy, że Steadwick zostało zaatakowane przez diabły!
+
+--- [81] offset=171344 ---
+Mamy wielu uchodźców ze wschodu. Większość z nich kieruje się w stronę bezpiecznego Steadwick.
+
+--- [82] offset=273221 ---
+Stara droga gryfów
+
+--- [83] offset=274012 ---
+Wygląda na to, że lawina zablokowała przejście.
+
+--- [84] offset=277808 ---
+Jeden z twoich żołnierzy krzyczy nagle: "Zasadzka!". Masz dokładnie tyle czasu, ile potrzeba na wyjęcie broni.
+
+--- [85] offset=278029 ---
+Jeden z twoich żołnierzy krzyczy nagle: "Zasadzka!". Masz dokładnie tyle czasu, ile potrzeba na wyjęcie broni.
+
+--- [86] offset=295296 ---
+Bonus wood.
+
+--- [87] offset=295311 ---
+Drewno na wojenne potrzeby.
+
+--- [88] offset=295392 ---
+Intro part 1
+
+--- [89] offset=295408 ---
+Klify Gryfów, miejsce corocznych spotkań godowych niemal wszystkich erathiańskich gryfów, znalazły się obecnie pod kontrolą połączonych sił Nighonu i Kreegan. Wiele lat temu gryfy pomogły przy powstaniu Erathii, teraz zaś powinny zostać podstawą sił, które ją wyzwolą.
+
+--- [90] offset=295730 ---
+Intro part 2
+
+--- [91] offset=295746 ---
+W tym rejonie ulokowane są znaczące siły Nighonu i Kreegan, ale musimy uwolnić gryfy, które są obecnie zmuszane do służenia wrogowi. Otrzymaliśmy raporty, że nasza stolica, Steadwick, jest oblężona. Jeśli upadnie, pomoc gryfów będzie nam potrzebna jak nigdy dotąd.
+
+--- [92] offset=296064 ---
+Intro part 3
+
+--- [93] offset=296080 ---
+Szukaj wież gryfów na północy. Musimy zdobyć je wszystkie zanim podążymy w kierunku Steadwick. Powodzenia.
+
+
+######################################################################
+# Źródło: H3pbitma.lod:Good2.h3c
+######################################################################
+
+--- [0] offset=21 ---
+Umocniliśmy nasze pozycje w Erathii, ale kraj jest niemal doszczętnie zrujnowany. Zaczniemy od oswobodzenia stolicy i nie zatrzymamy się, dopóki ostatni najeźdźca  nie opuści naszych granic.
+
+--- [1] offset=239 ---
+Pierwszym krokiem ku wolności Erathii będzie odbicie stolicy. Nie będzie to łatwe zadanie, tym bardziej, że władcy podziemi zablokowali przesmyk prowadzący do doliny Steadwick.
+
+--- [2] offset=422 ---
+Raporty wywiadu informują, że w Steadwick zabarykadowały się oddziały wroga. Wszystkie drogi do stolicy są zablokowane, a posiłki dla wroga docierają podziemnymi tunelami. Armie operujące dotąd na zachodzie spotkają się z nami na polu bitwy. To wszystko co mam do powiedzenia. Nie spoczniemy, dopóki stolica królestwa nie znajdzie się w naszych rękach.
+
+--- [3] offset=861 ---
+Do pałacu królowej Katarzyny przyszedł list od Lucyfera Kreegana III, najwyższego dowódcy sił zbrojnych Eeofolu. Lucyfer twierdzi, że pojmał męża Katarzyny, Rolanda Ironfista z Enroth i wyda go dopiero po zapłaceniu okupu w wysokości miliona sztuk złota.
+
+--- [4] offset=1124 ---
+Nazywam się Dorell, jestem ambasadorem z AvLee. Przynoszę wiadomości od królowej Katarzyny. Po odbiciu stolicy, na dwór przybył posłaniec Kreegan. Twierdzi, że mają zakładnika, którym jest król Erathii,  Roland.  Chcą dostać milion sztuk złota okupu. Nie jesteśmy w stanie potwierdzić prawdziwości jego słów. Bez względu na to, czy posłaniec kłamie czy nie, królowa nie chce zapłacić okupu. Posłaniec zdradził nam, iż król ma być podobno trzymany w fortecy klanu Kreelah znajdującej się głęboko na ziemiach królestwa Eofol. Twoim zadaniem jest wykrycie domniemanego miejsca przetrzymywania króla i uwolnienie go. Z powodu wagi misji otrzymasz wsparcie z AvLee. Pamiętaj: możesz uratować króla lub wpaść w śmiertelną pułapkę.
+
+--- [5] offset=1927 ---
+Ambasador Brakady w imieniu swego władcy, Gavina Magnusa, zaoferował pomoc w uwolnieniu zachodniej Erathii z rąk tataliańskich i krewlodzkich maruderów. Czas przypomnieć sąsiadom, którędy przebiega granica.
+
+--- [6] offset=2140 ---
+Jestem Winstan Langer, ambasador z Brakady rządzonej przez Wielkiego Wezyra Gavina Magnusa. Siły z Tatalii i Krewlodu ścierają się nieustannie w bitwach na ziemiach zachodniej Erathii. Chociaż konflikt trwa od kilku miesięcy, wciąż trwają walki. Choć mój władca jest zmartwiony wybuchem kolejnej wojny, przysyła ci posiłki, aby wesprzeć cię w potrzebie. Tej bitwy nie rozstrzygnie talent stratega, ale ilość gotowych na śmierć rycerzy. Powodzenia.
+
+--- [7] offset=2669 ---
+Wiemy już, że Erathia znajduje się pod kontrolą Nighonu i Eeofolu. Dosłownie podkopali się pod Nigońska Cieśniną i włamali do tuneli krasnoludów przy wybrzeżu Erathii. teraz musimy zmusić ich, by znów zeszli do tuneli - tym razem używając ich jako jedynej drogi ucieczki. Musimy na zawsze oczyścić z nich nasze ziemie!
+
+--- [8] offset=2994 ---
+Wiemy już, jak i dlaczego Erathia padła pod nawałem wojsk z Nighonu i Eeofolu. Używając sieci podziemnych tuneli wykopanych przez ich armie, najeźdźcy uderzyli równocześnie w wielu miejscach przeważającymi siłami. Odkryliśmy główną arterię, która transportuje wojska wroga z Nighonu do Erathii. Znajduje się ona pod oceanem, łącząc podziemia królestwa Nighonu z głównym kontynentem Erathii. Brakada i AvLee przysłały nam posiłki, aby wspomóc nas w trudnej walce. Naszym głównym celem jest zepchnięcie armii kreegańskich i nighońskich do tuneli, a następnie podążenie za nimi aż do wybrzeży królestwa Nighonu.
+
+--- [9] offset=3666 ---
+Bitwa o Steadwick
+
+--- [10] offset=3687 ---
+Aby wygrać, musisz zdobyć Steadwick. Poszukaj jasnowidza - wypełnienie jego misji pozwoli ci przenieść nagrodę do następnego scenariusza.
+
+--- [11] offset=4036 ---
+Game Hint 1
+
+--- [12] offset=4051 ---
+Przypuszczalnie Władcy Podziemi poprzez podziemne tunele dostarczają zaopatrzenie do Steadwick.
+
+--- [13] offset=4150 ---
+Game Hint 2
+
+--- [14] offset=4165 ---
+Władcy Podziemi kontrolują dwie bramy do podziemnych krain na zewnątrz Doliny Steadwick.
+
+--- [15] offset=4257 ---
+Game Hint 3
+
+--- [16] offset=4272 ---
+Generał Morgan Kendal trzymany jest jako jeniec w więzieniu na północnym zachodzie.
+
+--- [17] offset=202057 ---
+Gen. Kendal
+
+--- [18] offset=231757 ---
+Wczesne raporty szpiegów wskazują na to, że wojska z Nighonu i Eeofolu umocniły swoje pozycje w Dolinie Steadwick. Jako że wszystkie przejścia na lądzie są zablokowane, posiłki muszą być dostarczane poprzez podziemne tunele.
+
+--- [19] offset=232047 ---
+Aby wejść do doliny, będziesz również musiał odnaleźć przejście, którego używają wrogowie lub znależć drogę wśród gór. Czas na dobre wiadomości - mamy poparcie Brakady. Jeśli tylko uda nam się tam dotrzeć, otrzymamy także pomoc od AvLee. Nie ustąpimy, dopóki Steadwick nie zostanie wyzwolone.
+
+--- [20] offset=232394 ---
+News of General Kendal part 1
+
+--- [21] offset=232427 ---
+Ci, którzy przeżyli oblężenie Staedwick twierdzą, że po śmierci króla Gryphonhearta, rządy w Erathi przypadły Morganowi Kendalowi, generałowi sił erathiańskich.
+
+--- [22] offset=232641 ---
+News of General Kendal part 2
+
+--- [23] offset=232674 ---
+Świadkowie twierdzą, że genarał Kendal został schwytany podczas walki. Krążą pogłoski, że jest przetrzymywany w więzieniu na pólnocnym zachodzie. Dobrym pomysłem byłoby uwolnienie tego błyskotliwego przywódcy.
+
+--- [24] offset=233071 ---
+Rozprawa z diabłem
+
+--- [25] offset=233093 ---
+Aby wygrać, musisz przejąć miasto Kleesive. Niektóre  posterunki graniczne można pokonać jedynie pod warunkiem, że bohater posiada artefakt zdobyty w poprzednim scenariuszu.
+
+--- [26] offset=233330 ---
+Przywódca kl
+
+--- [27] offset=288071 ---
+Przywódca kl
+
+--- [28] offset=291637 ---
+Jeden z twoich żołnierzy nagle krzyczy: "Zasadzka!". Masz dokładnie tyle czasu, ile potrzeba na wyjęcie broni.
+
+--- [29] offset=291858 ---
+Jeden z twoich żołnierzy nagle krzyczy: "Zasadzka!". Masz dokładnie tyle czasu, ile potrzeba na wyjęcie broni.
+
+--- [30] offset=302134 ---
+Karczma Torga
+
+--- [31] offset=306725 ---
+Wieś Amnestia
+
+--- [32] offset=307046 ---
+Intro part 1
+
+--- [33] offset=307062 ---
+Z listu od przywódcy Eefolu wynika wyraźnie, że Król Roland Ironfist jest jeńcem diabłów i tylko okup w wyskości miliona złotych monet może utrzymać go przy życiu.
+
+--- [34] offset=307279 ---
+Intro part 2
+
+--- [35] offset=307295 ---
+Żądania zawarte w liście w żaden sposób nie mogą być potwierdzone, ale przesłuchiwany posłaniec ujawnił, iż klan Kreelah przetrzymuje Rolanda na terytorium Eeofolu. Niezależnie od tego czy to prawda czy nie, Królowa nie ma zamiaru się poddać.
+
+--- [36] offset=307591 ---
+Intro part 3
+
+--- [37] offset=307607 ---
+Główna forteca klanu Kreelah, Kleesive, jest położona blisko granicy z Erathią. Zdobądź ja i uwolnij Króla, jeżeli rzeczywiście jest tam więziony. Ponieważ nie wydaje nam się, aby Klan trzymał więźnia tak blisko granicy, prawdopodobnie jest to próba wciągnięcia naszych oddziałów w pułapkę.
+
+--- [38] offset=307951 ---
+Intro part 4
+
+--- [39] offset=307967 ---
+Siły z AvLee właśnie przybyły, aby pomóc nam w wypełnieniu zadania. Powodzenia i niech chronią cię Niebiosa.
+
+--- [40] offset=308288 ---
+Aby wygrać, musisz zająć wszystkie miasta i zamki wroga, oraz pokonać wszystkich wrogich bohaterów. Niektóre posterunki graniczne można pokonać jedynie pod warunkiem, że bohater posiada artefakt zdobyty w poprzednim scenariuszu.
+
+--- [41] offset=384054 ---
+Zwiadowca donosi, że wzdłuż granicy znajduje się wiele obozów uchodźców, zapełnionych stworzeniami które zmuszone zostały do opuszczenia swoich domów z powodu nieustajacych walk w tym rejonie.
+
+--- [42] offset=384300 ---
+Intro part 1
+
+--- [43] offset=384316 ---
+Od miesięcy Tatalia i Krewlod walczyły z Erathią oraz między sobą, tocząc wiele granicznych potyczek. Czarodzieje z Brakady byliby zadowoleni, gdyby mogli zostać z dala od wszelkich konfliktów, ale po tym wszystkim co się wydarzyło, zdecydowali się udzielić nam pomocy.
+
+--- [44] offset=384639 ---
+Intro part 2
+
+--- [45] offset=384655 ---
+Czarodzieje ustanowili posterunek na wspólnej granicy Erathii, Tatalii i Krewlodu. Nasze siły zostały wysłane w tamten rejon, aby do nich dołączyć. Powinniśmy być w stanie nie tylko powstrzymać walki, ale również ponownie ustanowić erathiańską granicę.
+
+--- [46] offset=384962 ---
+Intro part 3
+
+--- [47] offset=384978 ---
+Uderz szybko i wyeliminuj cały opór w okolicy. Musimy nauczyć naszych sąsiadów, że próba wykorzystania osłabienia Erathii była bardzo nierozsądna.
+
+--- [48] offset=385312 ---
+Tunele i troglodyci
+
+--- [49] offset=385335 ---
+Aby wygrać, musisz zająć wszystkie miasta i zamki wroga, oraz pokonać wszystkich wrogich bohaterów. Niektóre posterunki graniczne można pokonać jedynie pod warunkiem, że bohater posiada artefakt zdobyty w poprzednim scenariuszu.
+
+--- [50] offset=584544 ---
+Wyspa Cyklopów
+
+--- [51] offset=607153 ---
+Oto leży przed tobą Tarcza Strażnika Niebios. Czy uznajesz, że masz do niej prawa?
+
+--- [52] offset=607285 ---
+Oto leży przed tobą Hełm Gromu. Czy uznajesz, że masz do niego prawa?
+
+--- [53] offset=618677 ---
+Biblioteka Przeklętych
+
+--- [54] offset=631965 ---
+Intro part 1
+
+--- [55] offset=631981 ---
+Władcy Podziemi są bardzo wyrachowani. Podczas, gdy diabły z Eofolu atakują granice Erathii, siły Nighonu podkopują się w okolicach Steadwick. Nasze ziemie atakowane są równocześnie w wielu miejscach.
+
+--- [56] offset=632235 ---
+Intro part 2
+
+--- [57] offset=632251 ---
+Siły wojskowe Erathii powinny zatrzymać inwazję na wschodnią część królestwa. Niestety masz na karku Władców Podziemi. Twoim zadaniem jest odparcie ich wojsk w okolice cieśniny Nighonu i utrzymanie linii frontu na ICH ziemiach.
+
+--- [58] offset=632532 ---
+Intro part 3
+
+--- [59] offset=632548 ---
+W tym decydującym natarciu będą nam pomagały siły AvLee i Brakady. W tunelach nie mogą przetrwać żadne posterunki Nighonu i Eofolu. Musimy dać Władcom Podziemi lekcję, której nigdy nie zapomną. Powodzenia.
+
+--- [60] offset=632807 ---
+Sailing away
+
+--- [61] offset=632823 ---
+Masz szansę wysłać drogą morską sporą armię do Nighonu, uważaj jednak na zdradzieckie cieśniny, najeżone ostrymi skałami.
+
+
+######################################################################
+# Źródło: H3pbitma.lod:Good3.h3c
+######################################################################
+
+--- [0] offset=23 ---
+Ostatnim krokiem na drodze ku odrodzeniu Erathii jest wyparcie nekromantów do ich jałowej ojczyzny, którą zwą Deyja. Biorąc pod uwagę, że na ich czele stoi król Gryphonheart, nie będzie to łatwe zadanie.
+
+--- [1] offset=254 ---
+Do obozu obrońców Erathii podąża nekromanta, aby przedstawić Królowej dowody dotyczące zabójstwa jej ojca. Chwilowo jest bezpieczny, ale na drodze do obozu czyha na niego nowy król nieumarłych. Musisz zapewnić mu ochronę na ostatnim etapie podróży.
+
+--- [2] offset=509 ---
+Po odbiciu Steadwick moje obawy się potwierdziły. Mój ojciec nie zmarł śmiercią naturalną. Został otruty. Podczas śledztwa prowadzonego przez generała Morgana przed wybuchem wojny nie ustalono żadnych podejrzanych. Teraz jednak wiem, że nekromanci, szukając dowódcy dla swych armii, wskrzesili mojego ojca. Po zabiciu króla Vilmara wstąpił na tron i przejął całkowitą kontrolę nad ich armią. Teraz ruszyli na nas. Sami nie są już w stanie kontrolować monstrum, które stworzyli. Jako gest dobrej woli wysłali do mnie posłańca. Ma mi powiedzieć, kto zabił mojego ojca. Muszę odnaleźć posłańca i zabrać go w bezpieczne miejsce.
+
+--- [3] offset=1216 ---
+Dowodzisz połączonymi siłami Erathii, AvLee, Brakady oraz nekromantów, którzy postanowili sprzeciwić się królowi Gyphonheartowi. Nieumarli mają znaczne siły w całej prowincji, ale zwycięstwo i tak będzie należało do ciebie!
+
+--- [4] offset=1447 ---
+Jestem zmęczona wojną, tak jak nekromanci. Zgodziliśmy się współpracować,
+próbując zniszczyć króla Gryphonhearta. Nigdy nie przypuszczałam, że będę walczyć u boku nekromanty, ale już od dziś nasze kuźnie produkują broń dla ich armii. Być może z ich pomocą oraz zjednoczonymi siłami Avlee i Brakady uda nam się zepchnąć nieumarłych poza granice Erathii.
+
+--- [5] offset=1887 ---
+Nadeszła godzina prawdy - przed nami ostatnia bitwa. Nasza obecność powoli przywraca nadzieję tej ziemi, ale musimy jeszcze zniszczyć fortecę, w której schronił się król Gryphonheart. Nadszedł czas, aby umarli wrócili do grobów.
+
+--- [6] offset=2124 ---
+Pozostałości armii dowodzonej przez mojego ojca schroniły się w Nekropolis. Jednak jego armia nieumarłych wciąż stanowi wielką siłę. Stanę do walki, ale tobie pozostawiam dowództwo nad naszymi siłami. Musisz bezwarunkowo wypełnić jeden rozkaz – nie wolno ci dopuścić, by zginął Lord Haart! To on jest zdrajcą. Informacje dostarczone przez nekromantów zostały potwierdzone. Lord Haart należał do tajnego nekromantycznego kultu po przywództwem króla Vilmara. Mogąc swobodnie poruszać się po Steadwick, nie miał żadnych trudności z otruciem mojego ojca. Na rozkaz Vilmara miał zemścić się za to, że nekromanci zostali wygnani z Erathii.  Mam specjalne plany względem tego zdrajcy.
+
+--- [7] offset=2871 ---
+Bezpieczne przejście
+
+--- [8] offset=2895 ---
+Celem nekromanty Nimbusa jest zdobycie miasta Highcastle i Medalu Męża Stanu. Po zakończeniu tego scenariusza, Nimbus i jego siedmiu najsilniejszych bohaterów podąży za tobą do następnego scenariusza.
+
+--- [9] offset=26942 ---
+Nimbus posiada dowody dotyczące zabójstwa Króla Gryphonhearta. Musi do nas bezpiecznie dotrzeć, albo nigdy nie poznamy prawdy. Przyprowadź go do zamku!
+
+--- [10] offset=27281 ---
+Zjednoczony front
+
+--- [11] offset=27302 ---
+Aby wygrać, musisz zdobyć wszystkie wrogie miasta i zamki oraz pokonać wszystkich wrogich bohaterów. Sześciu twoich najsilniejszych herosów z tego scenariusza stanie wraz z tobą do walki z Lordem Heartem.
+
+--- [12] offset=172111 ---
+Intro part 1
+
+--- [13] offset=172127 ---
+Nigdy dotąd nie zdarzyło się w Erathii, by cztery narody walczyły pod jedną flagą. Dzisiaj maszerujemy przeciwko armii nieumarłych, mając część z nich również po swojej stronie. Choć wydaje się to dziwne, jest to jedyny sposób na pokonanie Deyji.
+
+--- [14] offset=172427 ---
+Intro part 2
+
+--- [15] offset=172443 ---
+Aby wygrać, musisz posiadać pełną kontrolę nad całym obszarem. Powodzenia! Liczymy na ciebie.
+
+--- [16] offset=172724 ---
+Za króla i kraj
+
+--- [17] offset=172743 ---
+Aby zwyciężyć, musisz zdobyć wszystkie wrogie miasta i zamki. Poza tym nie możesz stracić Królowej Katarzyny i Lorda Haarta. To ostateczna bitwa ... powodzenia!
+
+--- [18] offset=286907 ---
+Intro part 1
+
+--- [19] offset=286923 ---
+Celem ataku jest miasto, w którym znajduje się grobowiec Króla Gryphonhearta oraz miasto, w którym znajduje się Król w chwili obecnej. Oba miasta muszą zostać zdobyte, albo nigdy nie pozbawimy Gryphonhearta władzy.
+
+
+######################################################################
+# Źródło: H3pbitma.lod:Neutral1.h3c
+######################################################################
+
+--- [0] offset=5 ---
+Wojenne łupy
+
+--- [1] offset=21 ---
+W czasie wojny twój sprytny najemnik ma okazję zbić spory majątek. Biorąc pod uwagę, że Erathia pada na wschodzie pod naciskiem Nighonu, na zachodzie pojawia się interesująca okazja do przeprowadzenia małej grabieży. Prowincje Erathii, aż proszą się, by po nie sięgnąć.
+
+--- [2] offset=321 ---
+Król Tatalii, Tralossk, pragnie skorzystać z twych usług. Tralosska chciałby, aby jego kraj przestał składać się głównie z bagien i moczarów, a nękana przez wrogów Erathia wydaje się być łatwym łupem.
+
+--- [3] offset=530 ---
+Tak jak przewidziałeś milordzie, śmierć króla Gryphonhearta daje nam wiele okazji do wykorzystania twych talentów najemnika. Skontaktował się z nami posłaniec z Tatalii, w imieniu króla Tralosska. Dwadzieścia lat temu, po nieustannych potyczkach na zachodnich wybrzeżach Erathii, Tatalia podpisała pakt o nieagresji. Teraz król Gryphonheart nie żyje, a wraz z nim umarła umowa. Tatalończycy chętnie rozszerzyliby granice swojego państwa. Co prawda nigdy nie byli zbyt dobrymi strategami, lecz ich wojska są dobrze wyszkolone.Potrzebują jedynie dowódców, którzy poprowadziliby ich armie i zapewnili im przestrzeń życiową.
+
+--- [4] offset=1228 ---
+Diuk Winston Boragus, przywódca Krewlod, zaproponował ci kontrakt najemnika, który przewiduje serię wypadów na terytorium Erathii. Ich celem jest zdobycie złota, które pozwoli krewlodzkiej armii przygotować się... do innych zadań.
+
+--- [5] offset=1468 ---
+Wieści o twoich zdolnościach dotarły do barbarzyńskiego kraju Krewlod. Starcia jego mieszkańców z wojskami Erathii są już legendarne. Wielu mówi, że to właśnie dzięki nim żołnierze Erathii są tak twardzi w walce. Ostatnia napaść barbarzyńców na przygraniczne fortece odniosła niespodziewany sukces i wzięto wyjątkowo dużo jeńców. Po bliższym zbadaniu przyczyn tego niezwykłego zwycięstwa nasze podejrzenia okazały się słuszne. Bez swego króla wojska Erathii straciły chęć do walki. Twoim zadaniem jest szybkie splądrowanie przygranicznych terenów  i zebranie jak największej ilości bogactw. Kiedy już zbierzemy wystarczające siły... pomyślimy o oficjalnym wypowiedzeniu wojny. Jeżeli jednak dostaniesz się do niewoli, Krewlod oficjalnie uzna cię za fanatycznego przywódcę klanu, który działał wbrew interesom własnego kraju.
+
+--- [6] offset=2383 ---
+Zarówno król Tralossk z Tatalii, jak i diuk Boragus z Krewlod, pragną skorzystać z twoich usług. Oba państwa chcą przejąć dzielący je wąski pasek lądu. Jak na ironię, wartość tego terenu jest żadna. Musisz zdecydować, komu będziesz służyć. Wybór należy do ciebie.
+
+--- [7] offset=2655 ---
+Przedstawiciele Tatalii i Krewlodu pragną ponownie skorzystać z twoich usług. Oba kraje chcą zdobyć ostatni kawałek Erathii leżący pomiędzy ich ziemiami. Na wymienionym terenie znajduje się także kilka ostatnich zamków należących do lordów Erathii. Nie musisz się ich jednak obawiać, prawdziwa armia Erathii jest już tylko wspomnieniem. Znacznie poważniejsze walki czekają cię z siłami Tatalii lub Krewlodu. Co zabawniejsze, ziemie na których toczy się konflikt nie mają praktycznie żadnej wartości. Czeka cię więc zaciekła wojna graniczn. Siły Tatalii będą próbowały pokonać armie Krewlodu, które zdążyły się już ufortyfikować. Bez względu na to, u czyjego boku staniesz, zostaniesz okrzyknięty zdrajcą przez drugą stronę, zastanów się więc dobrze kogo wesprzeć... to decyzja, od której zależy twoje życie.
+
+--- [8] offset=3536 ---
+Aby odnieść zwycięstwo, musisz zatknąć flagi na wszystkich kopalniach. W tym scenariuszu, twoi bohaterowie będą mogli osiągnąć najwyżej dwunasty poziom doświadczenia, ale ośmiu najsilniejszych będzie mogło przejść do ostatniej misji tej kampanii.
+
+--- [9] offset=53381 ---
+Witamy w Tatalii.
+
+--- [10] offset=54128 ---
+Witamy w Erathii.
+
+--- [11] offset=54537 ---
+Szósta Świątynia Erathii
+
+--- [12] offset=54671 ---
+Fabryka Maszyn Oblęzniczych Abdula. Nie udzielamy kredytów.
+
+--- [13] offset=56311 ---
+Wieś Saurian - Serdecznie NIE witamy.
+
+--- [14] offset=56505 ---
+Gnolle wydają się być znudzone staniem na straży i po krótkiej dyskusji dołączają do twoich sił.
+
+--- [15] offset=57113 ---
+Królewski Jacht - Tylko Ambasadorowie!
+
+--- [16] offset=58094 ---
+Na horyzoncie pojawia się grupa gnolli. Kiedy się do nich zbliżasz ich dowódca wręcza ci zalakowany list: "Te wojska są wysłanymi ci posiłkami. Dysponuj nimi ku chwale Tatalii. Podpisano, Król Tralossk."
+
+--- [17] offset=58679 ---
+Szkoła Walki Abdula - Witamy Serdecznie
+
+--- [18] offset=59024 ---
+Ta droga prowadzi głębiej na ziemie Erathii, może należy jednak najpierw zabezpieczyć okolicę zanim udasz się dalej?
+
+--- [19] offset=59222 ---
+Bagienne Rusałki - Nie przeszkadzać!
+
+--- [20] offset=72405 ---
+Intro part 1
+
+--- [21] offset=72421 ---
+Twoje pierwsze zadanie otrzymane od króla Tralosska wydaje się być dosyć proste: zawładnij wszystkimi kopalniami w okolicy w celu zaopatrzenia wojsk Tatalii w surowce niezbędne w dalszej walce przeciwko Erathii.
+
+--- [22] offset=72686 ---
+Intro part 2
+
+--- [23] offset=72702 ---
+Mam dobrą i złą wiadomość. Ucieszysz się, ponieważ trzy erathiańskie posterunki w tym rejonie są praktycznie opustoszałe z powodu wojny na wschodzie. Zła wiadomość jest taka: wrogowie są w stanie zebrać posiłki dużo szybciej od nas, dlatego też radzę działać szybko.
+
+--- [24] offset=73023 ---
+Intro part 3
+
+--- [25] offset=73039 ---
+Oczywiście, najpierw należy wyeliminować wszelki opór w okolicy, później możesz z przyjemnością i bez pośpiechu wypełnić swoje zobowiazania...
+
+--- [26] offset=73387 ---
+Chcesz zwyciężyć? Zbierz 200,000 sztuk złota. W tym scenariuszu, twoi bohaterowie będą mogli osiągnąć najwyżej dwunasty poziom doświadczenia, ale ośmiu najsilniejszych będzie mogło przejść do ostatniej misji tej kampanii.
+
+--- [27] offset=185008 ---
+Intro part 1
+
+--- [28] offset=185024 ---
+Czyżby dawno nie było potyczki z erathiańskim wojskiem na naszej wschodniej granicy? Mówi się, że to dzięki nam te żółtodzioby stały się prawdziwymi wojownikami. Ostatni najazd przyniósł zwycięstwo, ale również niespotykanie dużą liczbę jeńców.
+
+--- [29] offset=185322 ---
+Intro part 2
+
+--- [30] offset=185338 ---
+Przesłuchania więźniów potwierdziły nasze podejrzenia - bez Króla Rolanda Erathia straciła swojego ducha. Naszym celem nie jest wszczynanie wojny, ale szybkie splądrowanie królestwa, które stoi przed nami otworem. Kiedy będziemy mieć potrzebne surowce.... pomyślimy może o wojnie.
+
+--- [31] offset=185672 ---
+Intro part 3
+
+--- [32] offset=185688 ---
+Do tego czasu, żądamy twojego bezwarunkowego udziału w najeździe na terytorium Erathii, na wschód od naszych granic. Jeśli jednak zostaniesz schwytany, będziemy utrzymywać iż jesteś jedynie nadgorliwym przywódcą klanu, działającym poza interesem ogółu narodu.
+
+--- [33] offset=186001 ---
+Intro part 4
+
+--- [34] offset=186017 ---
+Wynagrodzimy cię sowicie, ale będziesz musiał naprawdę na to zapracować. Diuk szacuje, iż Krewlod będzie potrzebowało przynajmniej 200,000 sztuk złota na sfinansowanie swoich dalszych przedsięwzięć. Ruszaj więc i powodzenia.
+
+--- [35] offset=186441 ---
+W tej kampanii zwycięstwo osiągniesz zdobywając wszystkie miasta i zamki wroga, oraz pokonując wszystkich wrogich bohaterów. Niezależnie od tego po której stronie się opowiesz, przeciwnik uzna cię za zdrajcę.
+
+--- [36] offset=291784 ---
+Droga południowa
+
+--- [37] offset=291820 ---
+Droga północna
+
+--- [38] offset=292296 ---
+Wieś goblinów
+
+--- [39] offset=292409 ---
+Wieś orków
+
+--- [40] offset=302928 ---
+Z krzaków niespodziewanie wyskakują bandyci i atakują cię!
+
+--- [41] offset=303097 ---
+Z krzaków niespodziewanie wyskakują bandyci i atakują cię!
+
+--- [42] offset=303266 ---
+Z krzaków niespodziewanie wyskakują bandyci i atakują cię!
+
+--- [43] offset=303435 ---
+Z krzaków niespodziewanie wyskakują bandyci i atakują cię!
+
+--- [44] offset=323671 ---
+Tatalia intro part 1
+
+--- [45] offset=323695 ---
+Wiadomość od króla Tralosska. "Cieszę się, że stajesz po naszej stronie. Twoje doświadczenie w walkach z barbarzyńcami da ci pewną przewagę. Niestety musisz pamiętać, że diuk Boragus wyznaczył cenę za twoją głowę zdrajcy."
+
+--- [46] offset=323971 ---
+Tatalia intro part 2
+
+--- [47] offset=323995 ---
+"Ta bitwa może się okazać ostatnią. Zamierzamy poszerzyć nasze granice aż do wzgórz Krewlodu, gdzie będą chcieli powstrzymać nas barbarzyńcy. Prawdopodobnie między nami znajdzie się mały oddział wojsk Erathii, ale nie powinien być dla ciebie przeszkodą."
+
+--- [48] offset=324303 ---
+Tatalia intro part 3
+
+--- [49] offset=324327 ---
+"Spraw się dobrze a staniesz się idolem Tatalii. Jeśli przegrasz... no cóż, o tym nie musimy mówić." List jest sygnowany pieczęcią Tralosska.
+
+--- [50] offset=324522 ---
+Krewlod intro part 1
+
+--- [51] offset=324546 ---
+Otrzymujesz wiadomość od jednego z generałów diuka Boragusa: "Nigdy nie lubiłem najemników, ale udowodniłeś, że warto zaoferować ci następny kontrakt. Podobno stary Tralossk był tak wściekły, że udało ci się go pokonać, iż rozkazał dostarczyć sobie twoją głowę w koszu!"
+
+--- [52] offset=324870 ---
+Krewlod intro part 2
+
+--- [53] offset=324894 ---
+"Tralosskowi przyszło do głowy uszczknąć kawałek naszego terytorium. TWOIM zadaniem jest jego powstrzymanie. Co prawda diuk Boragus cię lubi, ale twoje życie nie będzie warte złamanego grosza, jeśli Tatalańczycy pokażą się u bram pałacu diuka..."
+
+--- [54] offset=325194 ---
+Krewlod intro part 3
+
+--- [55] offset=325218 ---
+"Twoje zadania są jasne. Zatrzymaj marsz tataliańskich wojsk, następnie pogoń te nędzne gady jak najdalej od naszej granicy, żeby nigdy więcej nie przeszło im przez myśl postawienie nogi na naszej ziemi. Przy okazji pozbądź się erathiańskich posterunków. Dobrej zabawy!"
+
+
+######################################################################
+# Źródło: H3pbitma.lod:Secret1.h3c
+######################################################################
+
+--- [0] offset=5 ---
+Ziarna niechęci
+
+--- [1] offset=24 ---
+Najeźdźcy zostali wreszcie wygnani ze Spornych Ziem, przyszedł czas odbudowy. Lecz pojawił się człowiek, Faruk Wlenin, który pragnie na zawsze wyzwolić Sporne Ziemie spod władzy Erathii i AvLee.
+
+--- [2] offset=248 ---
+By podkreślić wagę deklaracji niepodległości potrzebny nam symbol. Jest nim zaginiony setki lat temu Graal. Musimy go odszukać, jeśli chcemy wprowadzić w życie nasze plany. Mamy na to tylko trzy miesiące.
+
+--- [3] offset=460 ---
+Po raz pierwszy w historii Spornych Ziem ludzie i elfy walczyli ramię w ramię w obronie swych siedzib. Lecz gdy opadnie radość, powróci dawna nienawiść i groźba wybuchu wojny domowej. Przyszedł czas, by zastanowić się nad przyszłością Spornych Ziem. Jeśli nasza walka o niepodległość ma przynieść trwałe zwycięstwo, potrzeba czegoś więcej niż tylko silnej armii. Musisz odszukać Graal zaginiony gdzieś w zaczarowanej krainie, gdzie jednorożce rozmawiają z drzewami.
+
+--- [4] offset=1013 ---
+Graal dotarł do Welnin, teraz musimy rozbudować to miasto. Armie Erathii i AvLee zaatakują nas ze wszystkich stron. Wkrótce dowiedziemy, że Sporne Ziemie już do nich nie należą!
+
+--- [5] offset=1198 ---
+Wydarzenia zachodzą w błyskawicznym tempie. Siły Erathii i AvLee przybyły, aby "przywrócić porządek" i zdusić naszą walkę o niepodległość w zarodku. Musimy szybko zabezpieczyć okolice miasta Welnin i wygnać wroga poza granice naszych ziem. Jeżeli nie uda nam się tego dokonać, stracimy wszystko o co walczyliśmy - dwie nacje ponownie zetrą się ogromnej wojnie. W dniu dzisiejszym deklarujemy naszą niepodległość i niezależność od królestw Erathii i Avlee.
+
+--- [6] offset=1742 ---
+Podróż do Welnin nie była łatwa, lecz najgorsze jeszcze przed nami. Łowca Ryland posiadacz Graala, musi dotrzeć do Welnin, unikając po drodze wojsk Erathii i AvLee. Kiedy już znajdzie się na miejscu, poprowadzi prace nad budową nowego sanktuarium Graala.
+
+--- [7] offset=2003 ---
+Chociaż wielu ludzi dołączyło do naszych sił, aby wspomóc naszą wizję niezawisłości, już teraz siły Erathii i Avlee zbierają armię, aby nas powstrzymać. Nie możemy kontynuować naszej walki bez silnej bazy wypadowej. Faruk Welnin, burmistrz miasta Welnin przysłał posłańca. Oferuje nam wsparcie. Rozpoczęła się nasza walka o niepodległość - musimy przedrzeć się do Welnin i umieścić tam Graal. Jeżeli nam się to uda, Welnin stanie się podwaliną naszej niezawisłości.
+
+--- [8] offset=2546 ---
+Aby odnieść zwycięstwo, musisz znaleźć Graala w ciągu trzech miesięcy.
+
+--- [9] offset=2839 ---
+Grail Location N
+
+--- [10] offset=2859 ---
+Graal znajduje się gdzieś na północ od Avalonu.
+
+--- [11] offset=2910 ---
+Grail Location East
+
+--- [12] offset=2933 ---
+Graal znajduje się gdzieś na wschód od Góry Krasnoludów.
+
+--- [13] offset=2993 ---
+Grail Location West
+
+--- [14] offset=3016 ---
+Graal znajduje się gdzieś na zachód od Wzgórza Krasnoludów.
+
+--- [15] offset=64541 ---
+Pułapka! Erathiańscy kusznicy otwierają ogień do twoich wojsk!
+
+--- [16] offset=64715 ---
+Wzgórze Krasnoludów
+
+--- [17] offset=64754 ---
+Na północ do Avalonu. Na wschód do Wzgórza Krasnoludów. Na zachód do Góry Krasnoludów.
+
+--- [18] offset=64860 ---
+Góra Krasnoludów
+
+--- [19] offset=65130 ---
+Spotykasz grupę krasnoludów i centaurów które popierają twoja walkę o niepodległość. Napotkane oddziały przyłączają się do ciebie.
+
+--- [20] offset=65363 ---
+Spotykasz grupę krasnoludów i centaurów które popierają twoja walkę o niepodległość. Napotkane oddziały przyłączają się do ciebie.
+
+--- [21] offset=65684 ---
+Kilka elfów, przychylnych twej sprawie, dołącza do twojej armii.
+
+--- [22] offset=66899 ---
+Pułapka! Erathiańscy kusznicy otwierają ogień do twoich wojsk!
+
+--- [23] offset=67074 ---
+Pułapka! Erathiańscy kusznicy otwierają ogień do twoich wojsk!
+
+--- [24] offset=67384 ---
+Kilka elfów, przychylnych twej sprawie, dołącza do twojej armii.
+
+--- [25] offset=67535 ---
+Pułapka! Erathiańscy kusznicy otwierają ogień do twoich wojsk!
+
+--- [26] offset=67708 ---
+Kilka elfów, przychylnych twej sprawie, dołącza do twojej armii.
+
+--- [27] offset=67891 ---
+Pułapka! Erathiańscy kusznicy otwierają ogień do twoich wojsk!
+
+--- [28] offset=68064 ---
+Grupa pegazów chce wspomóc cię w poszukiwaniach Graala.
+
+--- [29] offset=68206 ---
+Grupa pegazów chce wspomóc cię w poszukiwaniach Grala.
+
+--- [30] offset=68359 ---
+Nagle Liczny oddział jednorożców z impetem wypada z lasu! W czasie gdy twoi dowódcy starają się szybko przygotować wojska na niespodziewany atak, ty z przerażeniem dostrzegasz w oddali swoją siostrę.
+
+--- [31] offset=68917 ---
+Grupa jednorożców chce wspomóc cię w twej misji. Dostajesz od nich w prezencie Zbroję Cudów.
+
+--- [32] offset=75798 ---
+Kilka elfów, przychylnych twej sprawie, dołącza do twojej armii.
+
+--- [33] offset=76816 ---
+Sister text
+
+--- [34] offset=76831 ---
+Zwiadowcy donoszą, że twoja siostra jest na północy z olbrzymimi siłami bojowych jednorożców z AvLee. W przeciwieństwie do ciebie, wierzy ona, że sporne ziemie należą do AvLee, a deklaracja niepodległości jest zdradą. Twoja chęć do walki topnieje, gdyż miałeś nadzieję uniknąć tej konfrontacji.
+
+--- [35] offset=77179 ---
+Intro part 1
+
+--- [36] offset=77195 ---
+Kiedy gromadzisz swoje siły, aby odnaleźć Graala, dochodzą cię słuchy, że siły Erathii i AvLee mobilizują się w celu przeszkodzenia ci w walce o niepodległość. Właściwie milicja z Erathii i AvLee już stoi na twojej drodze. Na twoje szczęście, brakuje im jednak dobrego przywódcy.
+
+--- [37] offset=77528 ---
+Intro part 2
+
+--- [38] offset=77544 ---
+Część miejscowych opowiada się za tobą, jednak większość nie zajmuje miejsca po żadnej ze stron. Musisz odnaleźć Graala, aby przekonać do siebie pozostałych niedowiarków. Bez niego, oddziały z AvLee i Erathii pokonają twoje wojsko, a ty sam zawiśniesz na najblizszym drzewie.
+
+--- [39] offset=78024 ---
+Potrzebujesz stolicy, wybuduj Kapitol w mieście Welnin. Tylko wtedy sporne ziemie staną się wolne!
+
+--- [40] offset=127252 ---
+Odnajdujesz 3 sągi drewna.
+
+--- [41] offset=127344 ---
+Odnajdujesz 3 sągi drewna.
+
+--- [42] offset=129408 ---
+Odnajdujesz 3 sągi drewna.
+
+--- [43] offset=129488 ---
+Odnajdujesz 3 sągi drewna.
+
+--- [44] offset=129592 ---
+Odnajdujesz 3 sągi drewna.
+
+--- [45] offset=129753 ---
+Odnajdujesz 3 sągi drewna.
+
+--- [46] offset=129845 ---
+Odnajdujesz 5 sągów drewna.
+
+--- [47] offset=129998 ---
+Odnajdujesz 5 sągów drewna.
+
+--- [48] offset=131484 ---
+Odnajdujesz 3 sągi drewna.
+
+--- [49] offset=131564 ---
+Odnajdujesz 2 sągi drewna.
+
+--- [50] offset=133612 ---
+Odnajdujesz 2 sągi drewna.
+
+--- [51] offset=149773 ---
+Stolen Wood
+
+--- [52] offset=149788 ---
+Przy tak małych dostawach drewna, złodzieje uwijają się jak w ukropie.
+
+--- [53] offset=149912 ---
+Stolen Wood and Gold
+
+--- [54] offset=149936 ---
+Nocą twoje składy drewna zostały znowu napadnięte, ale tym razem zginęło również złoto!
+
+--- [55] offset=150077 ---
+Wood shortage
+
+--- [56] offset=150094 ---
+Musimy dalej budować Welnin, ale okoliczne tartaki są sabotowane, a co gorsza zaczęto nam kraść drewno!
+
+--- [57] offset=150252 ---
+Stolen Wood and Gold repeating
+
+--- [58] offset=150286 ---
+Pomimo naszych nieustających wysiłków, buntownicy znowu uciekają z naszym drewnem i złotem.
+
+--- [59] offset=150565 ---
+Droga do Domu
+
+--- [60] offset=150582 ---
+Ryland musi dotrzeć z Graalem do Welnin i wybudować tam jego sanktuarium.
+
+--- [61] offset=200309 ---
+Bonus Resources
+
+--- [62] offset=200328 ---
+AvLee przysyła zasoby na czas wojny.
+
+--- [63] offset=208993 ---
+Zwiadowca twierdzi, że drzewce zamieszkujące okolicę są oddane naszej sprawie.
+
+--- [64] offset=209154 ---
+Zwiadowca twierdzi, że zbrojni zamieszkujące okoliczny las są oddani naszej sprawie.
+
+--- [65] offset=211540 ---
+Zwiadowca twierdzi, że jednorożce zamieszkujące okolicę są oddane naszej sprawie.
+
+--- [66] offset=213036 ---
+Zwiadowca twierdzi, że wiele krasnoludów z tego regionu ma dosyć obecności wojsk Erathii i AvLee i sprzyja naszej sprawie.
+
+--- [67] offset=213989 ---
+Zwiadowca twierdzi, że elfy zamieszkujące okolicę są oddane naszej sprawie.
+
+--- [68] offset=214508 ---
+Zwiadowca twierdzi, że elfy zamieszkujące okolicę są oddane naszej sprawie.
+
+--- [69] offset=217051 ---
+Zwiadowca twierdzi, że mnisi zamieszkujący okolicę są oddani naszej sprawie.
+
+--- [70] offset=218037 ---
+Niewielki oddział zbrojnych wychodzi z pobliskiego lasu i chce dołączyć do twojej armii (lecz nie za darmo).
+
+--- [71] offset=218292 ---
+Niewielki oddział jednorożców staje na twojej drodze. Ich dowódca telepatycznie informuje cię, iż chce dołączyć do twojej armii.
+
+--- [72] offset=223863 ---
+Zbliża się niewielka grupa mnichów. Ich przywódca twierdzi, że chcą dołączyć do twojej armii.
+
+--- [73] offset=227029 ---
+Intro part 1
+
+--- [74] offset=227045 ---
+Mieszkańcy Welnin oczekują na przybycie Graala. Wszystko jest w rękach Rylanda. Nie zatrzymuj się aby walczyć - przyjdzie na to czas. Powodzenia.
+
