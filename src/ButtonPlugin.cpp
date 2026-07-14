@@ -382,6 +382,14 @@ VOID __stdcall HH_H3Redraw(HiHook* h, H3WindowManager* wm, INT32 x, INT32 y, INT
     {
         DrawToolbar(wm, h);
     }
+
+    // Audio: zatrzymaj narrację przy opuszczeniu mapy przygody (np. powrót do
+    // menu głównego) - ten sam sygnał co reset paska powyżej, ale niezależny
+    // blok (nie chowamy tego za g_toolbar.ready).
+    if (g_player.GetState() != AudioPlayer::State::Stopped && !IsAdventureMapForeground())
+    {
+        g_player.StopAndClose();
+    }
 }
 
 //===================================================================================
