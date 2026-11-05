@@ -51,6 +51,18 @@ Wynik: `build\bin\Release\H3ButtonPlugin.dll`.
 gry. **Ścieżki w `deploy.ps1` są wpisane na sztywno** (`$pluginRoot`, foldery `_HD3_Data\Packs\...`) —
 dostosuj je do swojego układu katalogów przed użyciem.
 
+Każda z 8 kampanii Heroes Chronicles może mieć własną, samodzielną paczkę:
+
+```
+.\deploy.ps1                  # Woj -> Packs\TextDetector\ (tryb historyczny)
+.\deploy.ps1 -Campaign Pod    # Pod -> Packs\TextDetector - Podboj Podziemi\
+.\deploy.ps1 -Campaign All    # wszystkie 8 kampanii, każda we własnym folderze
+```
+
+Kody: `Bun`, `Drz`, `Mie`, `Ogn`, `Pod`, `Sza`, `Wla`, `Woj`. W HD Launcherze rejestruj naraz tylko
+jedną paczkę `TextDetector*`. DLL w każdej paczce ma zawsze nazwę `H3ButtonPlugin.dll` (przemianowany
+przestaje działać). Skrypt bierze build Release; Debug tylko z `-AllowDebug`.
+
 Plugin w runtime korzysta też z **`H3.LodTable.dll`** (buduje się z pluginu `H3.LodTable` w `H3Plugins`) —
 to zależność uruchomieniowa dostarczana przez HD Mod, nie jest częścią tego repo; musi już być obecna
 w folderze `_HD3_Data\Packs\` gry.
