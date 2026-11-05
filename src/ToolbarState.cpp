@@ -5,7 +5,7 @@ ToolbarState g_toolbar;
 ToolbarState::ToolbarState()
     : defsLoaded(false), colorPlayer(-1), packLodsLoaded(false),
       ready(false), boundAdventureDlg(nullptr),
-      absX(-1), absY(-1), w(0), h(0), dateTextAdjusted(false)
+      absX(-1), absY(-1), w(0), h(0), dayTextPtr(nullptr), dayTextOrigW(0)
 {
     // Spin count 400 — optymalne dla krotkiego contention na 4-elementowej tablicy
     InitializeCriticalSectionAndSpinCount(&cs, 400);

@@ -179,13 +179,22 @@ static bool ComputeToolbarPosition(H3AdventureMgrDlg* advDlg)
 
     if (dayText)
     {
-        if (!g_toolbar.dateTextAdjusted)
+        // Pasek jest przeliczany od nowa po kazdym powrocie na mape (np. z ekranu
+        // miasta), a kontrolka daty jest ta sama i juz zwezona. Zwezanie wzgledem
+        // BIEZACEJ szerokosci przesuwalo wiec pasek w lewo o jego szerokosc przy
+        // kazdej wizycie w miescie - liczymy zawsze od oryginalnej szerokosci.
+        if (g_toolbar.dayTextPtr != dayText)
         {
-            INT oldW = dayText->GetWidth();
-            INT newW = oldW - totalW;
-            if (newW > ToolbarConst::DAY_SHRINK_MIN && newW != oldW)
+            g_toolbar.dayTextPtr   = dayText;
+            g_toolbar.dayTextOrigW = dayText->GetWidth();
+        }
+
+        {
+            INT curW    = dayText->GetWidth();
+            INT targetW = g_toolbar.dayTextOrigW - totalW;
+            if (targetW > ToolbarConst::DAY_SHRINK_MIN && targetW != curW)
             {
-                dayText->SetWidth((UINT16)newW);
+                dayText->SetWidth((UINT16)targetW);
                 __try
                 {
                     advDlg->RedrawItem(ToolbarConst::RES_BAR_ID);
@@ -196,7 +205,6 @@ static bool ComputeToolbarPosition(H3AdventureMgrDlg* advDlg)
                 }
                 __except (EXCEPTION_EXECUTE_HANDLER) {}
             }
-            g_toolbar.dateTextAdjusted = true;
         }
 
         INT absX = dayText->GetAbsoluteX() + dayText->GetWidth() + TOOLBAR_OFFSET_X + 4;
@@ -259,7 +267,6 @@ void EnsureToolbar(H3AdventureMgrDlg* advDlg)
         g_toolbar.ready             = false;
         g_toolbar.absX = g_toolbar.absY = -1;
         g_toolbar.w = g_toolbar.h       = 0;
-        g_toolbar.dateTextAdjusted      = false;
         g_toolbar.SafeClearAllPressed();
     }
 

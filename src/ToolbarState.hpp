@@ -45,7 +45,11 @@ struct ToolbarState {
     bool               ready;
     h3::H3AdventureMgrDlg* boundAdventureDlg;
     int                absX, absY, w, h;
-    bool               dateTextAdjusted;
+    // Oryginalna (niezwezona) szerokosc tekstu daty i wskaznik kontrolki, dla
+    // ktorej ja zapamietano - pasek zweza date zawsze wzgledem tej wartosci,
+    // nigdy wzgledem biezacej (patrz ComputeToolbarPosition).
+    const void*        dayTextPtr;
+    int                dayTextOrigW;
 
     // Chroniony przez cs: btns[i].pressed
     CRITICAL_SECTION   cs;
