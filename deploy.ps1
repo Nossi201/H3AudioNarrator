@@ -167,17 +167,19 @@ function Deploy-OneCampaign {
             Write-Host "  BLAD DLL: $($_.Exception.Message) (zamknij gre i sprobuj ponownie)"
         }
 
-        # 2. Zasoby statyczne (TD.lod, H3.LodTable.dll) - nie ma ich w repo, kopiujemy
-        #    z juz istniejacego legacy folderu TextDetector\ jako zrodla referencyjnego
+        # 2. Zasoby statyczne (TD.lod, H3.LodTable.dll) - z repo (pack_assets\), a gdy
+        #    ich tam brak, z istniejacego legacy folderu TextDetector\ gry.
         foreach ($asset in @('TD.lod', 'H3.LodTable.dll')) {
             $dstAsset = Join-Path $targetDir $asset
             if (!(Test-Path -LiteralPath $dstAsset)) {
+                $repoAsset   = Join-Path $pluginRoot "pack_assets\$asset"
                 $legacyAsset = Join-Path $legacyDir $asset
-                if (Test-Path -LiteralPath $legacyAsset) {
-                    Copy-Item $legacyAsset $dstAsset -Force
-                    Write-Host "  OK: $asset -> $dstAsset (skopiowano z $legacyDir)"
+                $srcAsset    = if (Test-Path -LiteralPath $repoAsset) { $repoAsset } elseif (Test-Path -LiteralPath $legacyAsset) { $legacyAsset } else { $null }
+                if ($srcAsset) {
+                    Copy-Item -LiteralPath $srcAsset -Destination $dstAsset -Force
+                    Write-Host "  OK: $asset -> $dstAsset (z $srcAsset)"
                 } else {
-                    Write-Host "  UWAGA: brak $asset - ani w $targetDir, ani w $legacyDir. Wtyczka moze nie dzialac bez tego pliku."
+                    Write-Host "  UWAGA: brak $asset - ani w pack_assets\, ani w $legacyDir. Wtyczka moze nie dzialac bez tego pliku."
                 }
             }
         }

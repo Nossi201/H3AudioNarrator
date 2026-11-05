@@ -10,10 +10,12 @@ out/
 *.ilk
 *.exp
 *.lib
-# .dll wyklucza tez H3.LodTable.dll - to zewnetrzny plik z HD Mod
-# (zaleznosc runtime, nie budowany przez ten projekt), zamierzenie poza repo.
 *.dll
 *.exe
+# Wyjatek: zaleznosci runtime paczki (H3.LodTable.dll z H3Plugins, licencja MIT,
+# oraz TD.lod z grafikami przyciskow) - trzymane w repo, zeby projekt dalo sie
+# odtworzyc bez istniejacej instalacji gry (deploy.ps1 bierze je stad).
+!pack_assets/*.dll
 
 # IDE
 .idea/
