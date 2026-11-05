@@ -10,6 +10,32 @@ ElevenLabs wykrywanej po treści okien dialogowych kampanii.
 
 Przykładowy wygenerowany fragment narracji (kampania "Wojownicy Pustkowi"): [docs/sample-audio/woj_032.mp3](docs/sample-audio/woj_032.mp3)
 
+## Odtworzenie na nowym komputerze
+
+Sprawdzone 2026-11-05 na świeżym klonie z GitHuba (build bez błędów, komplet 1613 plików audio).
+Wszystko, czego projekt potrzebuje, jest w tym repo, jego submodułach i publicznym repo H3Plugins:
+
+```
+mkdir plugin
+cd plugin
+git clone --recurse-submodules https://github.com/Nossi201/H3AudioNarrator.git H3ButtonPlugin
+git clone https://github.com/RoseKavalier/H3Plugins.git
+cd H3ButtonPlugin
+cmake -B build -A Win32
+cmake --build build --config Release
+```
+
+Najwygodniej odtworzyć ten sam układ katalogów co wcześniej:
+`F:\gry\h3-Chro-Hdmod(modowanie)\plugin\H3ButtonPlugin` i `...\plugin\H3Plugins`, a gry
+`HoMM 3 Complete*` w `F:\gry\h3-Chro-Hdmod(modowanie)\`. Wtedy `deploy.ps1` działa bez zmian.
+Przy innym układzie popraw w nim `$pluginRoot` i `$parentDir`.
+
+Czego w repo NIE ma (trzeba mieć osobno):
+- **samej gry** z HD Modem i plikami `.exe` kampanii Heroes Chronicles;
+- **rejestracji paczki w HD Launcherze** (zapisuje się w `_HD3_Data\Settings\sod.ini` gry) — po
+  `deploy.ps1` dodaj wybraną paczkę `TextDetector*` w launcherze (patrz „Deploy do gry”);
+- **klucza ElevenLabs** — potrzebny tylko do generowania nowego audio (zmienna `ELEVENLABS_API_KEY`).
+
 ## Wymagania
 
 - Visual Studio z obsługą C++ i CMake (testowane z instalacją w `C:\Program Files\Microsoft Visual Studio\18\Community`)
@@ -63,9 +89,9 @@ Kody: `Bun`, `Drz`, `Mie`, `Ogn`, `Pod`, `Sza`, `Wla`, `Woj`. W HD Launcherze re
 jedną paczkę `TextDetector*`. DLL w każdej paczce ma zawsze nazwę `H3ButtonPlugin.dll` (przemianowany
 przestaje działać). Skrypt bierze build Release; Debug tylko z `-AllowDebug`.
 
-Plugin w runtime korzysta też z **`H3.LodTable.dll`** (buduje się z pluginu `H3.LodTable` w `H3Plugins`) —
-to zależność uruchomieniowa dostarczana przez HD Mod, nie jest częścią tego repo; musi już być obecna
-w folderze `_HD3_Data\Packs\` gry.
+Każda paczka potrzebuje też **`TD.lod`** (grafiki przycisków paska i okna F6) oraz **`H3.LodTable.dll`**
+(z [H3Plugins](https://github.com/RoseKavalier/H3Plugins), licencja MIT). Oba pliki są w `pack_assets\`
+i `deploy.ps1` sam je kopiuje do każdej paczki.
 
 Samo skopiowanie plików do `_HD3_Data\Packs\TextDetector\` nie wystarczy — trzeba jeszcze zarejestrować
 paczkę w **HD Launcherze**: Ustawienia główne → Dodatkowe paczki danych → Dodaj → wybierz folder `TextDetector`.
