@@ -352,6 +352,53 @@ INT __stdcall HH_DlgProc(HiHook* h, H3BaseDlg* dlg, H3Msg* msg)
     return result;
 }
 
+static const DWORD LEAVE_GAME_STOP_DELAY_MS = 300;
+
+static INT ManagerStatus(H3Manager* m)
+{
+    return m ? (INT)m->status : -1;
+}
+
+// Rozgrywka = aktywna mapa przygody, ekran miasta albo walka. Menu glowne
+// (i ekrany przed wczytaniem gry) nie maja zadnego z nich aktywnego.
+static bool IsInGameScreen()
+{
+    __try
+    {
+        return ManagerStatus(P_AdventureMgr()) == H3Manager::ACTIVE
+            || ManagerStatus(P_TownMgr())      == H3Manager::ACTIVE
+            || ManagerStatus(P_CombatMgr())    == H3Manager::ACTIVE;
+    }
+    __except (EXCEPTION_EXECUTE_HANDLER)
+    {
+        return false;
+    }
+}
+
+// Diagnostyka: loguje kazda zmiane statusu menedzerow mapy/miasta/walki
+// (0=DESTROYED, 1=ACTIVE, 2=DISABLED, -1=brak), zeby z logu bylo widac, co
+// faktycznie dzieje sie przy wejsciu do miasta, walce i powrocie do menu.
+static void LogManagerStatusChanges()
+{
+    static INT last[3] = { -2, -2, -2 };
+    INT cur[3] = { -1, -1, -1 };
+    __try
+    {
+        cur[0] = ManagerStatus(P_AdventureMgr());
+        cur[1] = ManagerStatus(P_TownMgr());
+        cur[2] = ManagerStatus(P_CombatMgr());
+    }
+    __except (EXCEPTION_EXECUTE_HANDLER)
+    {
+        return;
+    }
+    if (cur[0] != last[0] || cur[1] != last[1] || cur[2] != last[2])
+    {
+        buttonPlugin.LogFormat("[Managers] adv=%d town=%d combat=%d", cur[0], cur[1], cur[2]);
+        last[0] = cur[0]; last[1] = cur[1]; last[2] = cur[2];
+    }
+}
+
 VOID __stdcall HH_H3Redraw(HiHook* h, H3WindowManager* wm, INT32 x, INT32 y, INT32 dx, INT32 dy)
 {
     THISCALL_5(VOID, h->GetDefaultFunc(), wm, x, y, dx, dy);
@@ -383,12 +430,32 @@ VOID __stdcall HH_H3Redraw(HiHook* h, H3WindowManager* wm, INT32 x, INT32 y, INT
         DrawToolbar(wm, h);
     }
 
-    // Audio: zatrzymaj narrację przy opuszczeniu mapy przygody (np. powrót do
-    // menu głównego) - ten sam sygnał co reset paska powyżej, ale niezależny
-    // blok (nie chowamy tego za g_toolbar.ready).
-    if (g_player.GetState() != AudioPlayer::State::Stopped && !IsAdventureMapForeground())
+    LogManagerStatusChanges();
+
+    // Audio: zatrzymaj narrację dopiero po wyjsciu z rozgrywki (powrot do menu
+    // glownego). NIE uzywamy tu IsAdventureMapForeground() jak dla paska - ekran
+    // miasta (np. po zdobyciu zamku) tez zdejmuje ACTIVE z menedzera mapy, co
+    // ucinalo narracje i czyscilo kolejke przy kazdym wejsciu do miasta.
+    // Krotka zwloka chroni przed chwila "pomiedzy" ekranami, gdy jeden menedzer
+    // juz sie zatrzymal, a nastepny jeszcze nie wystartowal.
+    static DWORD notInGameSince = 0;
+    if (g_player.GetState() == AudioPlayer::State::Stopped || IsInGameScreen())
     {
-        g_player.StopAndClose();
+        notInGameSince = 0;
+    }
+    else
+    {
+        DWORD now = GetTickCount();
+        if (notInGameSince == 0)
+        {
+            notInGameSince = now ? now : 1;
+        }
+        else if (now - notInGameSince >= LEAVE_GAME_STOP_DELAY_MS)
+        {
+            notInGameSince = 0;
+            buttonPlugin.Log("[Audio] Wyjscie z rozgrywki (menu glowne) - zatrzymuje narracje");
+            g_player.StopAndClose();
+        }
     }
 }
 
