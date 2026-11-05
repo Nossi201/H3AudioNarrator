@@ -31,6 +31,11 @@ param(
     [switch]$AllowDebug
 )
 
+# Czy -Campaign podano jawnie. Samo porownanie z "Woj" nie wystarcza, bo to tez
+# wartosc domyslna - '.\deploy.ps1 -Campaign Woj' trafialo do historycznego
+# TextDetector\ zamiast do 'TextDetector - Wojownicy Pustkowi\'.
+$CampaignExplicit = $PSBoundParameters.ContainsKey('Campaign')
+
 # Zwraca najnowszy istniejacy, niepusty DLL z podanej listy kandydatow (lub $null).
 function Find-NewestDll {
     param([string[]]$Candidates)
@@ -65,7 +70,7 @@ function Deploy-OneCampaign {
 
     $pluginRoot = 'F:\gry\h3-Chro-Hdmod(modowanie)\plugin\H3ButtonPlugin'
     $codeLower  = $Code.ToLower()
-    $isLegacy   = ($Code -eq 'Woj') -and ($Campaign -eq 'Woj')  # wywolanie bez -Campaign = stary tryb
+    $isLegacy   = ($Code -eq 'Woj') -and -not $CampaignExplicit  # wywolanie bez -Campaign = stary tryb
 
     $srcAudio    = "$pluginRoot\tools\chronicles_voiceover\audio_${codeLower}_campaign"
     $srcTextMap  = "$srcAudio\text_map_with_filter.txt"
